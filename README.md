@@ -1,2 +1,2 @@
 # trends
-scrapes currency trends from website and automatically commits and pushes upadtes to this repo
+scrapes currency trends from website and automatically commits and pushes updates to this repo
