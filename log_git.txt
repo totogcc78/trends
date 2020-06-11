@@ -8,3 +8,9 @@ To https://github.com/totogcc78/trends.git
    5e83e69..d867ec1  master -> master
 [master d867ec1] updated table
  1 file changed, 9 insertions(+), 9 deletions(-)
+To https://github.com/totogcc78/trends.git
+   d867ec1..a3d7e61  master -> master
+[master a3d7e61] updated table
+ 3 files changed, 30 insertions(+), 14 deletions(-)
+ create mode 100644 log_git.txt
+ create mode 100644 log_script.txt
