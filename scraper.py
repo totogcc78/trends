@@ -129,7 +129,7 @@ def push_to_github():
 
     os.system('git add .')
     os.system('git commit -m updated table.html')
-    os.system('git push origin master')
+    #os.system('git push origin master')
 
 
 def main():
