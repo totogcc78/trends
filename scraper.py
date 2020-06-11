@@ -121,7 +121,7 @@ def create_html(data):
             myTable += tr(td(key), td(" "), td(" "),
                           td("Sell"))
 
-    with open('table.html', 'w') as f:
+    with open('/home/ubuntu/trends-script/table.html', 'w') as f:
         f.write(myTable.render())
 
 
