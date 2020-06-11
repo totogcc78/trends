@@ -1,0 +1,143 @@
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
+import time
+from bs4 import BeautifulSoup
+import re
+import dominate
+from dominate.tags import table, tr, td, th, img, span
+import os
+import datetime
+
+
+start_url = "https://www.dukascopy.com/swiss/english/marketwatch/sentiment/"
+xpath_iframe_lp = '//*[@id="main-center-col"]/div/p[12]/iframe'
+xpath_lp = "//*[text()='Liquidity providers']"
+currencies_needed = [
+    'AUD/CAD', 'AUD/CHF', 'AUD/JPY', 'AUD/NZD', 'AUD/USD', 'CAD/CHF', 'CAD/JPY', 'CHF/JPY', 'EUR/AUD', 'EUR/CAD', 'EUR/CHF', 'EUR/GBP', 'EUR/JPY', 'EUR/NZD', 'EUR/USD', 'GBP/AUD', 'GBP/CAD', 'GBP/CHF', 'GBP/JPY', 'GBP/NZD', 'GBP/USD', 'NZD/CAD', 'NZD/CHF', 'NZD/JPY', 'NZD/USD', 'USD/CAD', 'USD/CHF', 'USD/JPY', 'XAG/USD', 'XAU/USD']
+
+
+def get_html_from_site():
+    options = Options()
+    options.add_argument("--headless")
+    driver = webdriver.Chrome(options=options)
+
+    try:
+        driver.get(start_url)
+
+        iframe = driver.find_element_by_xpath(xpath_iframe_lp)  # switch to it
+        driver.switch_to.frame(iframe)
+
+        liquidity_providers = driver.find_element_by_xpath(xpath_lp)
+        liquidity_providers.click()
+
+        table = driver.find_elements_by_class_name("L-M-eb-ib")
+
+        htmlstring = ""
+        for row in table:
+            htmlCode = row.get_attribute("outerHTML")
+            htmlstring += htmlCode
+
+        driver.switch_to.default_content()
+    finally:
+        driver.quit()
+
+    return htmlstring
+
+
+def convert_str_float(arr):
+    result = []
+    for i in arr:
+        i = re.sub(r'[^\x00-\x7F]+', '-', i)
+        result.append(float(i))
+    return result
+
+
+def clean_html(htmlstring):
+    result = {}
+    soup = BeautifulSoup(htmlstring, 'html.parser')
+
+    # currencies
+    currencies = soup.find_all('td', class_='L-Wb-kb-Yb')
+    currencies = [i.text.strip() for i in currencies]
+
+    # last updates
+    lastUpdates = soup.find_all('td', class_="L-Wb-kb-Zb")
+    lastUpdates = [i.text.strip().replace(' %', '') for i in lastUpdates]
+    lastUpdates = convert_str_float(lastUpdates)
+    # 6hours ago
+    sixHrUpdates = soup.find_all('td', class_="L-Wb-kb-ac-bc")
+    sixHrUpdates = [i.text.strip().replace(' %', '') for i in sixHrUpdates]
+    sixHrUpdates = convert_str_float(sixHrUpdates)
+    # 1 day ago
+    # oneDayUpdates = soup.find_all('td', class_="L-Wb-kb-cc-dc")
+    # oneDayUpdates = [i.text.strip().replace(' %', '') for i in oneDayUpdates]
+    # oneDayUpdates = convert_str_float(oneDayUpdates)
+
+    numCurrencies = len(currencies)
+
+    for i in range(numCurrencies):
+        if currencies[i] in currencies_needed:
+            result[currencies[i]] = [lastUpdates[i], sixHrUpdates[i]]
+            # result[currencies[i]] = [lastUpdates[i], sixHrUpdates[i], oneDayUpdates[i]]
+
+    return result
+
+
+def process_data(data):
+    result = {}
+    for key in data.keys():
+        [lu, su] = data[key]
+        if 0 in data[key]:
+            result[key] = 0
+        elif (lu > su) and (lu > 0 and su > 0):
+            result[key] = 1
+        elif (lu < su) and (lu < 0 and su < 0):
+            result[key] = -1
+        else:
+            result[key] = 0
+    return result
+
+
+def create_html(data):
+    keys = list(data.keys())
+    keys.sort()
+
+    myTable = table(style='border: 1px solid black')
+    myTable += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
+    for key in keys:
+
+        # hold
+        if data[key] == 0:
+            myTable += tr(td(key), td("Hold"), td(" "), td(" "))
+
+            # buy
+        elif data[key] == 1:
+            myTable += tr(td(key), td(""),
+                          td("Buy"), td(" "))
+
+            # sell
+        else:
+            myTable += tr(td(key), td(" "), td(" "),
+                          td("Sell"))
+
+    with open('table.html', 'w') as f:
+        f.write(myTable.render())
+
+
+def push_to_github():
+
+    os.system('git add .')
+    os.system('git commit -m updated table.html')
+    os.system('git push origin master')
+
+
+def main():
+    htmlstring = get_html_from_site()
+    dict_data = clean_html(htmlstring)
+    processed_data = process_data(dict_data)
+    create_html(processed_data)
+    push_to_github()
+
+
+main()
