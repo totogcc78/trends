@@ -105,9 +105,9 @@ def process_data(data):
         [lu, su, ou] = data[key]
         if 0 in data[key]:
             result_vip[key] = 0
-        elif ((lu <= su and su < ou) or (lu < su and su <= ou)) and (lu > 0 and su > 0 and ou > 0):
+        elif (lu < su and su < ou) and (lu > 0 and su > 0 and ou > 0):
             result_vip[key] = 1
-        elif ((lu <= su and su < ou) or (lu < su and su <= ou)) and (lu < 0 and su < 0 and ou < 0):
+        elif (lu < su and su < ou) and (lu < 0 and su < 0 and ou < 0):
             result_vip[key] = -1
         else:
             result_vip[key] = 0
@@ -120,46 +120,46 @@ def create_html(prem, vip):
     keys.sort()
 
     prem_table = table(style='border: 1px solid black')
-    prem_table += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
+    prem_table += tr(th("Currency"), th("Buy"), th("Sell"), th("Hold"))
     for key in keys:
 
         # hold
         if prem[key] == 0:
-            prem_table += tr(td(key), td("Hold"), td(" "), td(" "))
+            prem_table += tr(td(key), td(" "), td(" "), td("Hold"))
 
             # buy
         elif prem[key] == 1:
-            prem_table += tr(td(key), td(""),
-                             td("Buy"), td(" "))
+            prem_table += tr(td(key), td("Buy"),
+                             td(" "), td(" "))
 
             # sell
         else:
-            prem_table += tr(td(key), td(" "), td(" "),
-                             td("Sell"))
+            prem_table += tr(td(key), td(" "), td("Sell"),
+                             td(" "))
 
     with open('/home/ubuntu/trends-script/prem_table.html', 'w') as f:
         f.write(prem_table.render())
 
-    keys = list(vip.keys())
-    keys.sort()
+    keys_vip = list(vip.keys())
+    keys_vip.sort()
 
     vip_table = table(style='border: 1px solid black')
-    vip_table += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
-    for key in keys:
+    vip_table += tr(th("Currency"), th("Buy"), th("Sell"), th("Hold"))
+    for key in keys_vip:
 
         # hold
         if vip[key] == 0:
-            vip_table += tr(td(key), td("Hold"), td(" "), td(" "))
+            vip_table += tr(td(key), td(" "), td(" "), td("Hold"))
 
             # buy
         elif vip[key] == 1:
-            vip_table += tr(td(key), td(""),
-                            td("Buy"), td(" "))
+            vip_table += tr(td(key), td("Buy"),
+                            td(" "), td(" "))
 
             # sell
         else:
-            vip_table += tr(td(key), td(" "), td(" "),
-                            td("Sell"))
+            vip_table += tr(td(key), td(" "), td("Sell"),
+                            td(" "))
 
     with open('/home/ubuntu/trends-script/vip_table.html', 'w') as f:
         f.write(vip_table.render())
