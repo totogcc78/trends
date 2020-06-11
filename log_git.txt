@@ -18,3 +18,8 @@ To https://github.com/totogcc78/trends.git
    a3d7e61..ae8ee6b  master -> master
 [master ae8ee6b] updated table
  3 files changed, 12 insertions(+), 3 deletions(-)
+To https://github.com/totogcc78/trends.git
+   a0fe20f..9edfd49  master -> master
+[master 9edfd49] updated table
+ 1 file changed, 147 insertions(+)
+ create mode 100755 scraper.py.save
