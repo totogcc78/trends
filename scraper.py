@@ -94,7 +94,7 @@ def process_data(data):
         [lu, su, _] = data[key]
         if 0 in data[key]:
             result_prem[key] = 0
-        elif (lu > su) and (lu > 0 and su > 0):
+        elif (lu < su) and (lu > 0 and su > 0):
             result_prem[key] = 1
         elif (lu < su) and (lu < 0 and su < 0):
             result_prem[key] = -1
@@ -105,7 +105,7 @@ def process_data(data):
         [lu, su, ou] = data[key]
         if 0 in data[key]:
             result_vip[key] = 0
-        elif ((lu >= su and su > ou) or (lu > su and su >= ou)) and (lu > 0 and su > 0 and ou > 0):
+        elif ((lu <= su and su < ou) or (lu < su and su <= ou)) and (lu > 0 and su > 0 and ou > 0):
             result_vip[key] = 1
         elif ((lu <= su and su < ou) or (lu < su and su <= ou)) and (lu < 0 and su < 0 and ou < 0):
             result_vip[key] = -1

@@ -23,3 +23,7 @@ To https://github.com/totogcc78/trends.git
 [master 9edfd49] updated table
  1 file changed, 147 insertions(+)
  create mode 100755 scraper.py.save
+To https://github.com/totogcc78/trends.git
+   9edfd49..afdab25  master -> master
+[master afdab25] updated table
+ 4 files changed, 25 insertions(+), 17 deletions(-)
