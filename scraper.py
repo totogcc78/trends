@@ -138,6 +138,7 @@ def main():
     processed_data = process_data(dict_data)
     create_html(processed_data)
     #push_to_github()
+    print(datetime.datetime.now(), ' script ran')
 
 
 main()
