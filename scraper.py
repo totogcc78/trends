@@ -1,4 +1,4 @@
-#!/usr/bin/python3 
+#!/usr/bin/python3
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -72,74 +72,104 @@ def clean_html(htmlstring):
     sixHrUpdates = [i.text.strip().replace(' %', '') for i in sixHrUpdates]
     sixHrUpdates = convert_str_float(sixHrUpdates)
     # 1 day ago
-    # oneDayUpdates = soup.find_all('td', class_="L-Wb-kb-cc-dc")
-    # oneDayUpdates = [i.text.strip().replace(' %', '') for i in oneDayUpdates]
-    # oneDayUpdates = convert_str_float(oneDayUpdates)
+    oneDayUpdates = soup.find_all('td', class_="L-Wb-kb-cc-dc")
+    oneDayUpdates = [i.text.strip().replace(' %', '') for i in oneDayUpdates]
+    oneDayUpdates = convert_str_float(oneDayUpdates)
 
     numCurrencies = len(currencies)
 
     for i in range(numCurrencies):
         if currencies[i] in currencies_needed:
-            result[currencies[i]] = [lastUpdates[i], sixHrUpdates[i]]
-            # result[currencies[i]] = [lastUpdates[i], sixHrUpdates[i], oneDayUpdates[i]]
+            # result[currencies[i]] = [lastUpdates[i], sixHrUpdates[i]]
+            result[currencies[i]] = [lastUpdates[i],
+                                     sixHrUpdates[i], oneDayUpdates[i]]
 
     return result
 
 
 def process_data(data):
-    result = {}
+    result_vip = {}
+    result_prem = {}
     for key in data.keys():
-        [lu, su] = data[key]
+        [lu, su, _] = data[key]
         if 0 in data[key]:
-            result[key] = 0
+            result_prem[key] = 0
         elif (lu > su) and (lu > 0 and su > 0):
-            result[key] = 1
+            result_prem[key] = 1
         elif (lu < su) and (lu < 0 and su < 0):
-            result[key] = -1
+            result_prem[key] = -1
         else:
-            result[key] = 0
-    return result
+            result_prem[key] = 0
+
+    for key in data.keys():
+        [lu, su, ou] = data[key]
+        if 0 in data[key]:
+            result_vip[key] = 0
+        elif ((lu >= su and su > ou) or (lu > su and su >= ou)) and (lu > 0 and su > 0 and ou > 0):
+            result_vip[key] = 1
+        elif ((lu <= su and su < ou) or (lu < su and su <= ou)) and (lu < 0 and su < 0 and ou < 0):
+            result_vip[key] = -1
+        else:
+            result_vip[key] = 0
+
+    return result_prem, result_vip
 
 
-def create_html(data):
-    keys = list(data.keys())
+def create_html(prem, vip):
+    keys = list(prem.keys())
     keys.sort()
 
-    myTable = table(style='border: 1px solid black')
-    myTable += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
+    prem_table = table(style='border: 1px solid black')
+    prem_table += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
     for key in keys:
 
         # hold
-        if data[key] == 0:
-            myTable += tr(td(key), td("Hold"), td(" "), td(" "))
+        if prem[key] == 0:
+            prem_table += tr(td(key), td("Hold"), td(" "), td(" "))
 
             # buy
-        elif data[key] == 1:
-            myTable += tr(td(key), td(""),
-                          td("Buy"), td(" "))
+        elif prem[key] == 1:
+            prem_table += tr(td(key), td(""),
+                             td("Buy"), td(" "))
 
             # sell
         else:
-            myTable += tr(td(key), td(" "), td(" "),
-                          td("Sell"))
+            prem_table += tr(td(key), td(" "), td(" "),
+                             td("Sell"))
 
-    with open('/home/ubuntu/trends-script/table.html', 'w') as f:
-        f.write(myTable.render())
+    with open('/home/ubuntu/trends-script/prem_table.html', 'w') as f:
+        f.write(prem_table.render())
 
+    keys = list(vip.keys())
+    keys.sort()
 
-def push_to_github():
+    vip_table = table(style='border: 1px solid black')
+    vip_table += tr(th("Currency"), th("Hold"), th("Buy"), th("Sell"))
+    for key in keys:
 
-    os.system('git add .')
-    os.system('git commit -m updated table.html')
-    #os.system('git push origin master')
+        # hold
+        if vip[key] == 0:
+            vip_table += tr(td(key), td("Hold"), td(" "), td(" "))
+
+            # buy
+        elif vip[key] == 1:
+            vip_table += tr(td(key), td(""),
+                            td("Buy"), td(" "))
+
+            # sell
+        else:
+            vip_table += tr(td(key), td(" "), td(" "),
+                            td("Sell"))
+
+    with open('/home/ubuntu/trends-script/vip_table.html', 'w') as f:
+        f.write(vip_table.render())
 
 
 def main():
     htmlstring = get_html_from_site()
     dict_data = clean_html(htmlstring)
-    processed_data = process_data(dict_data)
-    create_html(processed_data)
-    #push_to_github()
+    prem, vip = process_data(dict_data)
+    create_html(prem, vip)
     print(datetime.datetime.now(), ' script ran')
 
 
