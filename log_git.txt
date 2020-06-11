@@ -39,3 +39,7 @@ To https://github.com/totogcc78/trends.git
  4 files changed, 24 insertions(+), 17 deletions(-)
 On branch master
 nothing to commit, working tree clean
+To https://github.com/totogcc78/trends.git
+   b6b4c11..c39182d  master -> master
+[master c39182d] updated table
+ 4 files changed, 12 insertions(+), 7 deletions(-)
