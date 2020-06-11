@@ -1,0 +1,10 @@
+To https://github.com/totogcc78/trends.git
+   0b165a5..5e83e69  master -> master
+[master 5e83e69] updated table
+ 2 files changed, 190 insertions(+)
+ mode change 100644 => 100755 scraper.py
+ create mode 100644 table.html
+To https://github.com/totogcc78/trends.git
+   5e83e69..d867ec1  master -> master
+[master d867ec1] updated table
+ 1 file changed, 9 insertions(+), 9 deletions(-)
