@@ -137,7 +137,7 @@ def main():
     dict_data = clean_html(htmlstring)
     processed_data = process_data(dict_data)
     create_html(processed_data)
-    push_to_github()
+    #push_to_github()
 
 
 main()
