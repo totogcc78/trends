@@ -149,3 +149,7 @@ To https://github.com/totogcc78/trends.git
    6ed1842..18b3fbc  master -> master
 [master 18b3fbc] updated table
  2 files changed, 7 insertions(+)
+To https://github.com/totogcc78/trends.git
+   18b3fbc..fc7fb96  master -> master
+[master fc7fb96] updated table
+ 4 files changed, 19 insertions(+), 12 deletions(-)
