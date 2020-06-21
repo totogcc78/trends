@@ -753,3 +753,7 @@ To https://github.com/totogcc78/trends.git
    7362db3..6804a56  master -> master
 [master 6804a56] updated table
  4 files changed, 11 insertions(+), 4 deletions(-)
+To https://github.com/totogcc78/trends.git
+   6804a56..60be750  master -> master
+[master 60be750] updated table
+ 3 files changed, 8 insertions(+), 1 deletion(-)
