@@ -149,3 +149,7 @@ To https://github.com/totogcc78/trends.git
    2094802..51a8e81  master -> master
 [master 51a8e81] updated table
  2 files changed, 7 insertions(+)
+To https://github.com/totogcc78/trends.git
+   51a8e81..9b56bef  master -> master
+[master 9b56bef] updated table
+ 4 files changed, 14 insertions(+), 7 deletions(-)
