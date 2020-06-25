@@ -994,3 +994,9 @@ To https://github.com/totogcc78/trends.git
    3f713d2..74f05c5  master -> master
 [master 74f05c5] updated table
  2 files changed, 37 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Operation timed out after 300030 milliseconds with 0 out of 0 bytes received
+[master dd0734a] updated table
+ 2 files changed, 37 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master 4402efd] updated table
+ 1 file changed, 32 insertions(+)
