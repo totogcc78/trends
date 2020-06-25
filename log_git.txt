@@ -931,3 +931,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 00bfd38] updated table
  2 files changed, 36 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master 9a8b15f] updated table
+ 2 files changed, 36 insertions(+)
