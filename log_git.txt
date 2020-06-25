@@ -910,3 +910,6 @@ To https://github.com/totogcc78/trends.git
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 12b4f17] updated table
  4 files changed, 30 insertions(+), 8 deletions(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master 6cd309b] updated table
+ 1 file changed, 4 insertions(+)
