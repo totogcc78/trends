@@ -1000,3 +1000,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Operation ti
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 4402efd] updated table
  1 file changed, 32 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master e3c1d5f] updated table
+ 4 files changed, 42 insertions(+), 18 deletions(-)
