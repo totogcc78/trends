@@ -94,3 +94,6 @@ To https://github.com/totogcc78/trends.git
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 5ef86a3] updated table
  2 files changed, 23 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master b2b9bc8] updated table
+ 2 files changed, 5 insertions(+)
