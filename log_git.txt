@@ -12,3 +12,6 @@ To https://github.com/totogcc78/trends.git
 [master b8c49d2] updated table
  2 files changed, 23 insertions(+)
  create mode 100644 log_script.txt
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master c1b80a8] updated table
+ 1 file changed, 6 insertions(+)
