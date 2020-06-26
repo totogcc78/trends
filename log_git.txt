@@ -2,3 +2,8 @@ To https://github.com/totogcc78/trends.git
    0abbbd5..20fe213  master -> master
 [master 20fe213] updated table
  2 files changed, 21 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master b4c13a1] updated table
+ 2 files changed, 5 insertions(+), 2536 deletions(-)
+ rewrite log_git.txt (99%)
+ delete mode 100644 log_script.txt
