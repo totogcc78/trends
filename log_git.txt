@@ -42,3 +42,6 @@ To https://github.com/totogcc78/trends.git
    12bbee5..653122a  master -> master
 [master 653122a] updated table
  2 files changed, 40 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master 7ad884e] updated table
+ 1 file changed, 5 insertions(+)
