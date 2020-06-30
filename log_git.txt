@@ -543,3 +543,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not re
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master c5754e6] updated table
  4 files changed, 31 insertions(+), 10 deletions(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master bbc5583] updated table
+ 1 file changed, 4 insertions(+)
