@@ -407,3 +407,7 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not re
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 298da59] updated table
  4 files changed, 24 insertions(+), 3 deletions(-)
+To https://github.com/totogcc78/trends.git
+   0aa2b7b..a9ffae8  master -> master
+[master a9ffae8] updated table
+ 1 file changed, 5 insertions(+)
