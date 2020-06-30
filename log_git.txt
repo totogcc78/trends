@@ -327,3 +327,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Operation ti
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master abf9899] updated table
  2 files changed, 36 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master 536fb8e] updated table
+ 2 files changed, 36 insertions(+)
