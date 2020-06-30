@@ -383,3 +383,9 @@ To https://github.com/totogcc78/trends.git
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master b0580dd] updated table
  1 file changed, 5 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
+[master bba33e6] updated table
+ 4 files changed, 30 insertions(+), 9 deletions(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': GnuTLS recv error (-54): Error in the pull function.
+[master 3f74639] updated table
+ 2 files changed, 50 insertions(+)
