@@ -163,3 +163,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not re
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not resolve host: github.com
 [master 6a99d38] updated table
  2 files changed, 22 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': GnuTLS recv error (-110): The TLS connection was non-properly terminated.
+[master 2dfdfb8] updated table
+ 1 file changed, 4 insertions(+)
