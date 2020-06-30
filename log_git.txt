@@ -389,3 +389,7 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': Could not re
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': GnuTLS recv error (-54): Error in the pull function.
 [master 3f74639] updated table
  2 files changed, 50 insertions(+)
+To https://github.com/totogcc78/trends.git
+   45ecad8..cd2b518  master -> master
+[master cd2b518] updated table
+ 1 file changed, 8 insertions(+)
