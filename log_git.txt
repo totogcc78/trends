@@ -2,3 +2,9 @@ To https://github.com/totogcc78/trends.git
    eaaad725..0027a3b4  master -> master
 [master 0027a3b4] updated table
  2 files changed, 5 insertions(+)
+To https://github.com/totogcc78/trends.git
+   0027a3b4..60ead0a3  master -> master
+[master 60ead0a3] updated table
+ 4 files changed, 13 insertions(+), 1450 deletions(-)
+ rewrite log_git.txt (99%)
+ rewrite log_script.txt (100%)
