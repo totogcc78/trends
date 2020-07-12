@@ -3,3 +3,9 @@ To https://github.com/totogcc78/trends.git
 [master b4478495] updated table
  2 files changed, 1 insertion(+), 1151 deletions(-)
  delete mode 100644 log_git.txt
+To https://github.com/totogcc78/trends.git
+   b4478495..9dbada7e  master -> master
+[master 9dbada7e] updated table
+ 3 files changed, 10 insertions(+), 291 deletions(-)
+ create mode 100644 log_git.txt
+ delete mode 100644 log_script.txt
