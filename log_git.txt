@@ -10,3 +10,7 @@ To https://github.com/totogcc78/trends.git
  3 files changed, 11 insertions(+), 3 deletions(-)
  create mode 100644 log_git.txt
  create mode 100644 log_script.txt
+To https://github.com/totogcc78/trends.git
+   da6775ca..8364dfd9  master -> master
+[master 8364dfd9] updated table
+ 3 files changed, 11 insertions(+), 2 deletions(-)
