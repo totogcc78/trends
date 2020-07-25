@@ -437,3 +437,9 @@ To https://github.com/totogcc78/trends.git
 [master 403ee1e8] updated table
  4 files changed, 105 insertions(+), 2 deletions(-)
  create mode 100644 forex_screener_scrap.py
+To https://github.com/totogcc78/trends.git
+   403ee1e8..5ad6460d  master -> master
+[master 5ad6460d] updated table
+ 6 files changed, 204 insertions(+), 7 deletions(-)
+ create mode 100644 __pycache__/forex_screener_scrap.cpython-38.pyc
+ create mode 100644 platinum_table.html
