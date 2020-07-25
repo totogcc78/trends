@@ -10,6 +10,7 @@ import dominate
 from dominate.tags import table, tr, td, th, img, span
 import os
 import datetime
+from forex_screener_scrap import get_platinum_screener_list
 
 
 start_url = "https://www.dukascopy.com/swiss/english/marketwatch/sentiment/"
@@ -116,6 +117,10 @@ def process_data(data):
 
 
 def create_html(prem, vip):
+    path = '/home/ubuntu/trends-script/'
+    # path = ''
+    #premium table
+    
     keys = list(prem.keys())
     keys.sort()
 
@@ -137,8 +142,11 @@ def create_html(prem, vip):
             prem_table += tr(td(key), td(" "), td("Sell"),
                              td(" "))
 
-    with open('/home/ubuntu/trends-script/prem_table.html', 'w') as f:
+    with open('{}prem_table.html'.format(path), 'w') as f:
         f.write(prem_table.render())
+
+
+    #vip table
 
     keys_vip = list(vip.keys())
     keys_vip.sort()
@@ -161,8 +169,42 @@ def create_html(prem, vip):
             vip_table += tr(td(key), td(" "), td("Sell"),
                             td(" "))
 
-    with open('/home/ubuntu/trends-script/vip_table.html', 'w') as f:
+    with open('{}vip_table.html'.format(path), 'w') as f:
         f.write(vip_table.render())
+
+    
+    # platinum table
+    
+    platinum_result = get_platinum_screener_list()
+
+    platinum_keys = list(platinum_result.keys())
+    platinum_keys.sort()
+
+    # for k in platinum_keys:
+    #     try:
+    #         print(k, platinum_result[k], prem[k])
+    #     except:
+    #         reverseKey = k[4:] + '/' + k[:3]
+    #         print(k, platinum_result[k], prem[reverseKey])
+
+
+    platinum_table = table(style='border: 1px solid black')
+    platinum_table += tr(th("Currency"), th("Buy"), th("Sell"), th("Hold"))
+
+    for key in currencies_needed:
+        reverseKey = key[4:] + '/' + key[:3]
+        if (prem[key]==0):
+            if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
+                platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
+            elif (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
+                platinum_table += tr(td(key), td(" "), td("Sell"), td(" "))
+            else :
+                platinum_table += tr(td(key), td(" "), td(" "), td("Hold"))
+        else:
+            platinum_table += tr(td(key), td(" "), td(" "), td("Hold"))
+
+    with open('{}platinum_table.html'.format(path), 'w') as f:
+        f.write(platinum_table.render())
 
 
 def main():
