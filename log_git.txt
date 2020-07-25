@@ -443,3 +443,8 @@ To https://github.com/totogcc78/trends.git
  6 files changed, 204 insertions(+), 7 deletions(-)
  create mode 100644 __pycache__/forex_screener_scrap.cpython-38.pyc
  create mode 100644 platinum_table.html
+To https://github.com/totogcc78/trends.git
+   5ad6460d..c09bb925  master -> master
+[master c09bb925] updated table
+ 6 files changed, 43 insertions(+), 33 deletions(-)
+ create mode 100644 .scraper.py.swp
