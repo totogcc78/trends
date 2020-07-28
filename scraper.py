@@ -180,14 +180,14 @@ def create_html(prem, vip):
     platinum_keys = list(platinum_result.keys())
     platinum_keys.sort()
 
-#    for k in currencies_needed:
-#       if k not in platinum_keys:
-#           continue
-#       try:
-#           print(k, platinum_result[k], prem[k])
-#       except:
-#           reverseKey = k[4:] + '/' + k[:3]
-#           print(k, platinum_result[reverseKey], prem[k])
+    # for k in currencies_needed:
+    #    if k not in platinum_keys:
+    #        continue
+    #    try:
+    #        print(k, platinum_result[k], prem[k])
+    #    except:
+    #        reverseKey = k[4:] + '/' + k[:3]
+    #        print(k, platinum_result[reverseKey], prem[k])
 
 
     platinum_table = table(style='border: 1px solid black')
@@ -196,9 +196,9 @@ def create_html(prem, vip):
     for key in currencies_needed:
         reverseKey = key[4:] + '/' + key[:3]
         if (prem[key]==0):
-            if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
+            if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
-            elif (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
+            elif (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
                 platinum_table += tr(td(key), td(" "), td("Sell"), td(" "))
             else :
                 platinum_table += tr(td(key), td(" "), td(" "), td("Hold"))
@@ -216,12 +216,12 @@ def create_html(prem, vip):
     for key in currencies_needed:
         reverseKey = key[4:] + '/' + key[:3]
         if (prem[key]==1):
-            if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
+            if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 svip += tr(td(key), td("Buy"), td(" "), td(" "))
             else :
                 svip += tr(td(key), td(" "), td(" "), td("Hold"))
         elif (prem[key]==-1):
-            if (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
+            if (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (key not in platinum_keys and  reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
                 svip += tr(td(key), td(" "), td("Sell"), td(" "))
             else :
                 svip += tr(td(key), td(" "), td(" "), td("Hold"))
