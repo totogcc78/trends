@@ -344,3 +344,33 @@
 2020-07-28 14:10:19.107213  script ran
 49  recieved from forex screener
 2020-07-28 14:15:19.014105  script ran
+49  recieved from forex screener
+AUD/CAD Buy 1
+AUD/CHF Buy -1
+AUD/JPY Buy 1
+AUD/NZD Buy 0
+AUD/USD Buy 0
+CAD/CHF Sell -1
+CAD/JPY Sell 0
+CHF/JPY Buy 1
+EUR/AUD Buy 0
+EUR/CAD Buy 1
+EUR/CHF Buy 0
+EUR/GBP Buy 0
+EUR/JPY Buy 0
+EUR/NZD Buy 0
+EUR/USD Buy 0
+GBP/AUD Sell 0
+GBP/CAD Buy 1
+GBP/CHF Sell -1
+GBP/JPY Buy 0
+GBP/NZD Buy 0
+GBP/USD Buy 1
+NZD/CAD Buy 0
+NZD/CHF Sell -1
+NZD/JPY Buy 0
+NZD/USD Buy 0
+USD/CAD Sell 0
+USD/CHF Sell 0
+USD/JPY Sell 0
+2020-07-28 14:20:18.616984  script ran

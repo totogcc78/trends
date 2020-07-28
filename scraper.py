@@ -180,14 +180,14 @@ def create_html(prem, vip):
     platinum_keys = list(platinum_result.keys())
     platinum_keys.sort()
 
-    for k in currencies_needed:
-       if k not in platinum_keys:
-           continue
-       try:
-           print(k, platinum_result[k], prem[k])
-       except:
-           reverseKey = k[4:] + '/' + k[:3]
-           print(k, platinum_result[reverseKey], prem[k])
+#    for k in currencies_needed:
+#       if k not in platinum_keys:
+#           continue
+#       try:
+#           print(k, platinum_result[k], prem[k])
+#       except:
+#           reverseKey = k[4:] + '/' + k[:3]
+#           print(k, platinum_result[reverseKey], prem[k])
 
 
     platinum_table = table(style='border: 1px solid black')
