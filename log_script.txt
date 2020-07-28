@@ -409,3 +409,6 @@ USD/JPY Sell 0
 49  recieved from forex screener
 2020-07-28 15:40:20.656785  script ran
 /bin/sh: 1: /home/ubuntu/trends-script/scraper.py: not found
+/bin/sh: 1: /home/ubuntu/trends-script/scraper.py: not found
+49  recieved from forex screener
+2020-07-28 15:55:20.704202  script ran
