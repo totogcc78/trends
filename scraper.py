@@ -195,7 +195,14 @@ def create_html(prem, vip):
 
     for key in currencies_needed:
         reverseKey = key[4:] + '/' + key[:3]
-        if (prem[key]==0):
+        if key == 'XAG/USD' or key == 'XAU/USD' :
+            if prem[key] == 0:
+                platinum_table += tr(td(key), td(" "), td(" "), td("Hold"))
+            elif prem[key] == 1 :
+                platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
+            else:
+                platinum_table += tr(td(key), td(" "), td(" "), td("Sell"))
+        elif (prem[key]==0):
             if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
             elif (key in platinum_keys and 'sell' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'sell' in platinum_result[reverseKey].lower()):
@@ -215,7 +222,14 @@ def create_html(prem, vip):
 
     for key in currencies_needed:
         reverseKey = key[4:] + '/' + key[:3]
-        if (prem[key]==1):
+        if key == 'XAG/USD' or key == 'XAU/USD' :
+            if prem[key] == 0:
+                svip += tr(td(key), td(" "), td(" "), td("Hold"))
+            elif prem[key] == 1 :
+                svip += tr(td(key), td("Buy"), td(" "), td(" "))
+            else:
+                svip += tr(td(key), td(" "), td(" "), td("Sell"))
+        elif (prem[key]==1):
             if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 svip += tr(td(key), td("Buy"), td(" "), td(" "))
             else :
