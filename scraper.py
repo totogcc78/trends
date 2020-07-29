@@ -202,7 +202,7 @@ def create_html(prem, vip):
             elif prem[key] == 1 :
                 platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
             else:
-                platinum_table += tr(td(key), td(" "), td(" "), td("Sell"))
+                platinum_table += tr(td(key), td(" "), td("Sell"), td(" "))
         elif (prem[key]==0):
             if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 platinum_table += tr(td(key), td("Buy"), td(" "), td(" "))
@@ -229,7 +229,7 @@ def create_html(prem, vip):
             elif prem[key] == 1 :
                 svip += tr(td(key), td("Buy"), td(" "), td(" "))
             else:
-                svip += tr(td(key), td(" "), td(" "), td("Sell"))
+                svip += tr(td(key), td(" "), td("Sell"), td(" "))
         elif (prem[key]==1):
             if (key in platinum_keys and 'buy' in platinum_result[key].lower()) or (key not in platinum_keys and reverseKey in platinum_keys and 'buy' in platinum_result[reverseKey].lower()):
                 svip += tr(td(key), td("Buy"), td(" "), td(" "))
