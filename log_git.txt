@@ -9,3 +9,8 @@ To https://github.com/totogcc78/trends.git
 [master ac0cb2131] updated table
  4 files changed, 20 insertions(+), 12 deletions(-)
  create mode 100644 log_git.txt
+To https://github.com/totogcc78/trends.git
+   ac0cb2131..77f10471b  master -> master
+[master 77f10471b] updated table
+ 6 files changed, 13 insertions(+), 4 deletions(-)
+ create mode 100644 log_script.txt
