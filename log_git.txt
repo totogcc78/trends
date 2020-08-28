@@ -1,0 +1,6 @@
+To https://github.com/totogcc78/trends.git
+   77ffe8100..90ec5fa3f  master -> master
+[master 90ec5fa3f] updated table
+ 2 files changed, 1733 deletions(-)
+ delete mode 100644 log_git.txt
+ delete mode 100644 log_script.txt
