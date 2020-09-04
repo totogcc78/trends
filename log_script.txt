@@ -679,3 +679,5 @@ selenium.common.exceptions.NoSuchElementException: Message: no such element: Una
 2020-09-04 00:05:18.875968  script ran
 49  recieved from forex screener
 2020-09-04 00:10:19.749588  script ran
+49  recieved from forex screener
+2020-09-04 00:15:20.899270  script ran
