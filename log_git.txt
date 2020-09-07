@@ -4,3 +4,8 @@ To https://github.com/totogcc78/trends.git
  6 files changed, 6 insertions(+), 1738 deletions(-)
  delete mode 100644 log_git.txt
  rewrite log_script.txt (100%)
+To https://github.com/totogcc78/trends.git
+   b23f3e202..66bc57980  master -> master
+[master 66bc57980] updated table
+ 6 files changed, 24 insertions(+), 14 deletions(-)
+ create mode 100644 log_git.txt
