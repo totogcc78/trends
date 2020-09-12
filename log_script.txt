@@ -570,3 +570,5 @@ selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Translat
 Message: unexpected alert open: {Alert text : Translation isn't loaded}
   (Session info: headless chrome=83.0.4103.97)
 
+49  recieved from forex screener
+2020-09-12 00:00:20.904117  script ran
