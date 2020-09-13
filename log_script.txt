@@ -159,3 +159,22 @@ selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Translat
 Message: unexpected alert open: {Alert text : Translation isn't loaded}
   (Session info: headless chrome=83.0.4103.97)
 
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 259, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 252, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 32, in get_html_from_site
+    iframe = driver.find_element_by_xpath(xpath_iframe_lp)  # switch to it
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 241, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Translation isn't loaded
+Message: unexpected alert open: {Alert text : Translation isn't loaded}
+  (Session info: headless chrome=83.0.4103.97)
+
