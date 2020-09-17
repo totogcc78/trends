@@ -503,3 +503,5 @@ Traceback (most recent call last):
 selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="a-b-c L-M-j L-M-j-r-t" title="" role="button" aria-pressed="false" id=":1" style="user-select: none;">...</div> is not clickable at point (280, 442). Other element would receive the click: <div class="L-M-Qb-tb L-M-Qb-Tb-Sb">...</div>
   (Session info: headless chrome=83.0.4103.97)
 
+49  recieved from forex screener
+2020-09-17 17:15:44.034638  script ran
