@@ -697,3 +697,5 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: script timeout
   (Session info: headless chrome=83.0.4103.97)
 
+49  recieved from forex screener
+2020-09-17 20:05:30.679581  script ran
