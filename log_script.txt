@@ -594,3 +594,5 @@ selenium.common.exceptions.ElementClickInterceptedException: Message: element cl
 2020-09-22 23:45:26.542359  script ran
 49  recieved from forex screener
 2020-09-22 23:50:26.630638  script ran
+49  recieved from forex screener
+2020-09-22 23:55:25.949727  script ran
