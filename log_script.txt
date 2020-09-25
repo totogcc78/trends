@@ -266,3 +266,21 @@ selenium.common.exceptions.ElementClickInterceptedException: Message: element cl
 
 49  recieved from forex screener
 2020-09-25 06:11:17.182680  script ran
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 259, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 252, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 36, in get_html_from_site
+    liquidity_providers.click()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="a-b-c L-M-j L-M-j-r-t" title="" role="button" aria-pressed="false" id=":1" style="user-select: none;">...</div> is not clickable at point (280, 442). Other element would receive the click: <div class="L-M-Qb-tb L-M-Qb-Tb-Sb">...</div>
+  (Session info: headless chrome=83.0.4103.97)
+
