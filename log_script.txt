@@ -274,3 +274,7 @@ IndentationError: unindent does not match any outer indentation level
     elif (lu < su) and (lu > 0 and su > 0):
                                           ^
 IndentationError: unindent does not match any outer indentation level
+  File "/home/ubuntu/trends-script/scraper.py", line 110
+    elif (lu < su) and (lu > 0 and su > 0):
+                                          ^
+IndentationError: unindent does not match any outer indentation level
