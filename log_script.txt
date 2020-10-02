@@ -293,3 +293,6 @@ IndentationError: unindent does not match any outer indentation level
 2020-10-02 08:40:21.428882  script ran
 49  recieved from forex screener
 2020-10-02 08:45:22.537340  script ran
+49  recieved from forex screener
+2020-10-02 08:50:26.064204  script ran
+/bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
