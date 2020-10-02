@@ -286,3 +286,6 @@ IndentationError: unindent does not match any outer indentation level
     elif (lu < su) and (lu > 0 and su > 0):
                                           ^
 IndentationError: unindent does not match any outer indentation level
+0  recieved from forex screener
+49  recieved from forex screener
+2020-10-02 08:35:25.411309  script ran
