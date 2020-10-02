@@ -623,3 +623,6 @@ IndentationError: unindent does not match any outer indentation level
 2020-10-02 21:40:25.643797  script ran
 49  recieved from forex screener
 2020-10-02 21:45:21.376672  script ran
+0  recieved from forex screener
+49  recieved from forex screener
+2020-10-02 21:50:23.907481  script ran
