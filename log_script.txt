@@ -264,3 +264,4 @@ selenium.common.exceptions.ElementClickInterceptedException: Message: element cl
 /bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
 /bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
 /bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
+/bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
