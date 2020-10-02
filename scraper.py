@@ -104,12 +104,12 @@ def process_data(data):
             result_prem[key] = 0
 
     for key in data.keys():
-        [lu, su, _] = data[key]
+        [lu, su, ou] = data[key]
         if 0 in data[key]:
             result_vip[key] = 0
-         elif (lu < su) and (lu > 0 and su > 0):
+        elif (lu < su and su < ou) and (lu > 0 and su > 0 and ou > 0):
             result_vip[key] = 1
-        elif (lu < su) and (lu < 0 and su < 0):
+        elif (lu < su and su < ou) and (lu < 0 and su < 0 and ou < 0):
             result_vip[key] = -1
         else:
             result_vip[key] = 0
@@ -135,12 +135,12 @@ def create_html(prem, vip):
 
             # buy
         elif prem[key] == 1:
-            prem_table += tr(td(key), td("Buy"),
-                             td(" "), td(" "))
+            prem_table += tr(td(key), td(" "),
+                             td("Sell "), td(" "))
 
             # sell
         else:
-            prem_table += tr(td(key), td(" "), td("Sell"),
+            prem_table += tr(td(key), td("Buy"), td(" "),
                              td(" "))
 
     with open('{}prem_table.html'.format(path), 'w') as f:
@@ -162,12 +162,12 @@ def create_html(prem, vip):
 
             # buy
         elif vip[key] == 1:
-            vip_table += tr(td(key), td(" "),
-                            td("Sell"), td(" "))
+            vip_table += tr(td(key), td("Buy"),
+                            td(" "), td(" "))
 
             # sell
         else:
-            vip_table += tr(td(key), td("Buy"), td(" "),
+            vip_table += tr(td(key), td(" "), td("Sell"),
                             td(" "))
 
     with open('{}vip_table.html'.format(path), 'w') as f:
