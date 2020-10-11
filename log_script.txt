@@ -576,3 +576,5 @@ Message: unexpected alert open: {Alert text : Translation isn't loaded}
 2020-10-11 23:35:22.984227  script ran
 49  recieved from forex screener
 2020-10-11 23:40:20.964288  script ran
+49  recieved from forex screener
+2020-10-11 23:45:21.133075  script ran
