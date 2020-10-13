@@ -1714,3 +1714,5 @@ selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receivi
 2020-10-13 22:00:26.169052  script ran
 49  recieved from forex screener
 2020-10-13 22:05:24.664073  script ran
+49  recieved from forex screener
+2020-10-13 22:10:27.145736  script ran
