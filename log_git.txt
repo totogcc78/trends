@@ -20,3 +20,6 @@ To https://github.com/totogcc78/trends.git
    7ba8cf103..972ce7ea7  master -> master
 [master 972ce7ea7] updated table
  2 files changed, 7 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': The requested URL returned error: 503
+[master b6ece1716] updated table
+ 2 files changed, 9 insertions(+)
