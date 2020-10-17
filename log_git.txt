@@ -65,3 +65,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': The requeste
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Failed to connect to github.com port 443: Connection timed out
 [master f3d555424] updated table
  2 files changed, 8 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': The requested URL returned error: 503
+[master d12df3a4a] updated table
+ 2 files changed, 8 insertions(+)
