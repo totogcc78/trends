@@ -500,3 +500,5 @@ Message: unexpected alert open: {Alert text : Translation isn't loaded}
 2020-10-18 20:25:30.988351  script ran
 49  recieved from forex screener
 2020-10-18 20:30:28.714999  script ran
+49  recieved from forex screener
+2020-10-18 20:35:28.514301  script ran
