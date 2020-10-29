@@ -498,3 +498,9 @@ To https://github.com/totogcc78/trends.git
    fbbd948f8..d23cd0d38  master -> master
 [master d23cd0d38] updated table
  2 files changed, 40 insertions(+)
+remote: fatal error in commit_refs        
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]     master -> master (failure)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master c25295eca] updated table
+ 2 files changed, 44 insertions(+)
