@@ -60,3 +60,9 @@ To https://github.com/totogcc78/trends.git
    11c0ed2bb..0d9ef3b38  master -> master
 [master 0d9ef3b38] updated table
  2 files changed, 44 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+To https://github.com/totogcc78/trends.git
+   0d9ef3b38..2f603e5be  master -> master
+[master 2f603e5be] updated table
+ 2 files changed, 44 insertions(+)
