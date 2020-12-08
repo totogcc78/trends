@@ -679,3 +679,7 @@ To https://github.com/totogcc78/trends.git
  mode change 100644 => 100755 prem_table.html
  mode change 100644 => 100755 svip.html
  mode change 100644 => 100755 vip_table.html
+To https://github.com/totogcc78/trends.git
+   122ae9fb2..3c006b3f0  master -> master
+[master 3c006b3f0] updated table
+ 2 files changed, 28 insertions(+)
