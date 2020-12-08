@@ -135,12 +135,12 @@ def create_html(prem, vip):
 
             # buy
         elif prem[key] == 1:
-            prem_table += tr(td(key), td(" "),
-                             td("Sell "), td(" "))
+            prem_table += tr(td(key), td("Buy"),
+                             td(" "), td(" "))
 
             # sell
         else:
-            prem_table += tr(td(key), td("Buy"), td(" "),
+            prem_table += tr(td(key), td(" "), td("Sell"),
                              td(" "))
 
     with open('{}prem_table.html'.format(path), 'w') as f:
