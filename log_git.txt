@@ -638,3 +638,8 @@ To https://github.com/totogcc78/trends.git
    4985a356f..0bc115e02  master -> master
 [master 0bc115e02] updated table
  1 file changed, 6 insertions(+)
+To https://github.com/totogcc78/trends.git
+   0bc115e02..3c74757ac  master -> master
+[master 3c74757ac] updated table
+ 4 files changed, 41 insertions(+), 262 deletions(-)
+ delete mode 100755 scraper.py-8-12-20
