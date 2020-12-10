@@ -617,3 +617,11 @@ To https://github.com/totogcc78/trends.git
    c6000920a..d79bb29a9  master -> master
 [master d79bb29a9] updated table
  2 files changed, 26 insertions(+)
+To https://github.com/totogcc78/trends.git
+   d79bb29a9..5b29e274c  master -> master
+[master 5b29e274c] updated table
+ 4 files changed, 8 insertions(+)
+ mode change 100644 => 100755 __pycache__/forex_screener_scrap.cpython-38.pyc
+ mode change 100644 => 100755 forex_screener_scrap.py
+ mode change 100644 => 100755 log_git.txt
+ mode change 100644 => 100755 log_script.txt
