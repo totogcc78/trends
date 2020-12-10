@@ -1483,3 +1483,5 @@ Traceback (most recent call last):
     raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
 
+49  recieved from forex screener
+2020-12-10 08:05:51.531351  script ran
