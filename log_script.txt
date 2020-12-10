@@ -1508,3 +1508,5 @@ selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsA
 2020-12-10 08:55:21.968437  script ran
 49  recieved from forex screener
 2020-12-10 09:00:25.124341  script ran
+49  recieved from forex screener
+2020-12-10 09:05:22.173851  script ran
