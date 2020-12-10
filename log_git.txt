@@ -625,3 +625,7 @@ To https://github.com/totogcc78/trends.git
  mode change 100644 => 100755 forex_screener_scrap.py
  mode change 100644 => 100755 log_git.txt
  mode change 100644 => 100755 log_script.txt
+To https://github.com/totogcc78/trends.git
+   5b29e274c..e69f3f765  master -> master
+[master e69f3f765] updated table
+ 3 files changed, 13 insertions(+), 1 deletion(-)
