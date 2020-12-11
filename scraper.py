@@ -24,6 +24,7 @@ currencies_needed = [
 def get_html_from_site():
     options = Options()
     options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
     driver = webdriver.Chrome(options=options)
 
     try:
