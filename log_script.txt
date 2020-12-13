@@ -1321,3 +1321,5 @@ Traceback (most recent call last):
 selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Liquidity providers']"}
   (Session info: headless chrome=87.0.4280.88)
 
+49  recieved from forex screener
+2020-12-13 10:26:39.568769  script ran
