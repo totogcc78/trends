@@ -1637,3 +1637,10 @@ Traceback (most recent call last):
   File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 6, in <module>
     options.add_argument("--disable-dev-shm-usage")
 NameError: name 'options' is not defined
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 14, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 16
+    options.add_argument("--disable-dev-shm-usage")
+                                                  ^
+TabError: inconsistent use of tabs and spaces in indentation
