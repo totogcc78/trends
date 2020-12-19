@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-
 def get_platinum_screener_list():
 	result = {}
 	while len(result) ==  0:
