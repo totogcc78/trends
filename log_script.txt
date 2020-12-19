@@ -1714,3 +1714,10 @@ Traceback (most recent call last):
     options.add_argument("--window-size=1920x1080")
     ^
 IndentationError: unexpected indent
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 14, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 15
+    options.add_argument("--window-size=1920x1080")
+    ^
+IndentationError: unexpected indent
