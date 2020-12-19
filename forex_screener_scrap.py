@@ -10,7 +10,7 @@ def get_platinum_screener_list():
 	while len(result) ==  0:
 		url = "https://www.tradingview.com/forex-screener/"
 		options = Options()
-	 options.add_argument("start-maximized")
+	# options.add_argument("start-maximized")
 		# options.add_argument("--headless")
 		options.add_argument("--window-size=1920x1080")
                 options.add_argument("--disable-dev-shm-usage")
