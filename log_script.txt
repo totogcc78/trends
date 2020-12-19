@@ -1952,3 +1952,10 @@ Traceback (most recent call last):
     options.add_argument("start-maximized")
                                           ^
 TabError: inconsistent use of tabs and spaces in indentation
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 14, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 12
+    options.add_argument("start-maximized")
+                                          ^
+TabError: inconsistent use of tabs and spaces in indentation
