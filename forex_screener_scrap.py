@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.options import Options
 import requests
 from bs4 import BeautifulSoup
 import time
+options.add_argument("--disable-dev-shm-usage")
 
 def get_platinum_screener_list():
 	result = {}
