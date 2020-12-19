@@ -1631,3 +1631,9 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 291.195
   (Session info: headless chrome=87.0.4280.88)
 
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 14, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 6, in <module>
+    options.add_argument("--disable-dev-shm-usage")
+NameError: name 'options' is not defined
