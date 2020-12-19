@@ -711,3 +711,9 @@ To https://github.com/totogcc78/trends.git
    badd4367b..96d8ab9e9  master -> master
 [master 96d8ab9e9] updated table
  2 files changed, 20 insertions(+)
+To https://github.com/totogcc78/trends.git
+   96d8ab9e9..6844388e7  master -> master
+[master 6844388e7] updated table
+ 4 files changed, 72 insertions(+), 2 deletions(-)
+ mode change 100755 => 100644 forex_screener_scrap.py
+ create mode 100755 forex_screener_scrap.py-01
