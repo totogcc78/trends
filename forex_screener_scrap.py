@@ -12,8 +12,7 @@ def get_platinum_screener_list():
 		options.add_argument("--start-maximized")
 		# options.add_argument("--headless")
 		options.add_argument("--window-size=1920x1080")
-		options.add_argument("--disable-dev-shm-usage")
-
+		
 
 		driver = webdriver.Chrome(options=options)
 		driver.get(url)
