@@ -870,3 +870,8 @@ To https://github.com/totogcc78/trends.git
 [master dae8f56db] updated table
  3 files changed, 21 insertions(+)
  rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (67%)
+To https://github.com/totogcc78/trends.git
+   dae8f56db..f10c17351  master -> master
+[master f10c17351] updated table
+ 2 files changed, 7 insertions(+), 3020 deletions(-)
+ rewrite log_script.txt (100%)
