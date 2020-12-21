@@ -827,3 +827,8 @@ To https://github.com/totogcc78/trends.git
  rename forex_screener_scrap_working.py => forex_screener_scrap.py (100%)
  mode change 100644 => 100755
  rename forex_screener_scrap.py => forex_screener_scrap.py-22122020 (100%)
+To https://github.com/totogcc78/trends.git
+   27f54f5a7..ad572c87b  master -> master
+[master ad572c87b] updated table
+ 2 files changed, 9 insertions(+)
+ rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (85%)
