@@ -889,3 +889,7 @@ To https://github.com/totogcc78/trends.git
 [master 3bbbc0d2e] updated table
  3 files changed, 9 insertions(+), 1 deletion(-)
  delete mode 100644 .forex_screener_scrap.py.swp
+To https://github.com/totogcc78/trends.git
+   3bbbc0d2e..4468a80d6  master -> master
+[master 4468a80d6] updated table
+ 2 files changed, 9 insertions(+), 2 deletions(-)
