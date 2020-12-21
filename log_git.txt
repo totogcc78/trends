@@ -860,3 +860,8 @@ To https://github.com/totogcc78/trends.git
    494667880..2768de727  master -> master
 [master 2768de727] updated table
  3 files changed, 26 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+   2768de727..bc57cbb54  master -> master
+[master bc57cbb54] updated table
+ 4 files changed, 15 insertions(+)
+ rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (94%)
