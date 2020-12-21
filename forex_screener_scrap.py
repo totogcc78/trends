@@ -12,7 +12,7 @@ def get_platinum_screener_list():
     # options.add_argument("start-maximized")
         options.add_argument("--headless")
         options.add_argument("--window-size=1920x1080")
-
+        import ipdb;ipdb.set_trace()
         driver = webdriver.Chrome(executable_path="/usr/lib/chromium-browser/chromedriver", options=options)
         driver.get(url)
 
