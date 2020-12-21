@@ -879,3 +879,8 @@ To https://github.com/totogcc78/trends.git
    f10c17351..a48bbbb8b  master -> master
 [master a48bbbb8b] updated table
  1 file changed, 7 insertions(+)
+To https://github.com/totogcc78/trends.git
+   a48bbbb8b..8166370e3  master -> master
+[master 8166370e3] updated table
+ 2 files changed, 6 insertions(+)
+ create mode 100644 .forex_screener_scrap.py.swp

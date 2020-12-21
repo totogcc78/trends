@@ -10,10 +10,11 @@ def get_platinum_screener_list():
         url = "https://www.tradingview.com/forex-screener/"
         options = Options()
     # options.add_argument("start-maximized")
+        options.add_argument("--no-sandbox")
         options.add_argument("--headless")
         options.add_argument("--window-size=1920x1080")
-        options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument('--remote-debugging-port=9222')
         import ipdb;ipdb.set_trace()
         driver = webdriver.Chrome(executable_path="/usr/lib/chromium-browser/chromedriver", options=options)
         driver.get(url)
