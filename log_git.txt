@@ -820,3 +820,10 @@ To https://github.com/totogcc78/trends.git
    805ec75d1..c9bec7cbb  master -> master
 [master c9bec7cbb] updated table
  2 files changed, 20 insertions(+)
+To https://github.com/totogcc78/trends.git
+   c9bec7cbb..27f54f5a7  master -> master
+[master 27f54f5a7] updated table
+ 4 files changed, 13 insertions(+)
+ rename forex_screener_scrap_working.py => forex_screener_scrap.py (100%)
+ mode change 100644 => 100755
+ rename forex_screener_scrap.py => forex_screener_scrap.py-22122020 (100%)
