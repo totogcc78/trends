@@ -832,3 +832,7 @@ To https://github.com/totogcc78/trends.git
 [master ad572c87b] updated table
  2 files changed, 9 insertions(+)
  rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (85%)
+To https://github.com/totogcc78/trends.git
+   ad572c87b..4420d2cb1  master -> master
+[master 4420d2cb1] updated table
+ 2 files changed, 33 insertions(+)
