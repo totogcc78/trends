@@ -908,3 +908,10 @@ Exiting Debugger.
 [0m
 ipdb> 
 Exiting Debugger.
+> [0;32m/home/ubuntu/trends-script/forex_screener_scrap.py[0m(19)[0;36mget_platinum_screener_list[0;34m()[0m
+[0;32m     18 [0;31m        [0;32mimport[0m [0mipdb[0m[0;34m;[0m[0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m---> 19 [0;31m        [0mdriver[0m [0;34m=[0m [0mwebdriver[0m[0;34m.[0m[0mChrome[0m[0;34m([0m[0mexecutable_path[0m[0;34m=[0m[0;34m"/usr/lib/chromium-browser/chromedriver"[0m[0;34m,[0m [0moptions[0m[0;34m=[0m[0moptions[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m     20 [0;31m        [0mdriver[0m[0;34m.[0m[0mget[0m[0;34m([0m[0murl[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+ipdb> 
+Exiting Debugger.
