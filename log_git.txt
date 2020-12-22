@@ -825,3 +825,8 @@ To https://github.com/totogcc78/trends.git
 [master 49e836c2a] updated table
  3 files changed, 66 insertions(+)
  create mode 100755 forex_screener_scrap.py
+To https://github.com/totogcc78/trends.git
+   49e836c2a..11d485e3c  master -> master
+[master 11d485e3c] updated table
+ 3 files changed, 20 insertions(+)
+ rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (99%)
