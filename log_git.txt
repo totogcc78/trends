@@ -890,3 +890,9 @@ To https://github.com/totogcc78/trends.git
    78ac9301b..7218b9716  master -> master
 [master 7218b9716] updated table
  2 files changed, 24 insertions(+)
+To https://github.com/totogcc78/trends.git
+   7218b9716..2ebec6028  master -> master
+[master 2ebec6028] updated table
+ 3 files changed, 22 insertions(+), 376 deletions(-)
+ rewrite prem_table.html (95%)
+ rewrite vip_table.html (95%)
