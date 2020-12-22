@@ -815,3 +815,8 @@ To https://github.com/totogcc78/trends.git
    079507043..933d3707f  master -> master
 [master 933d3707f] updated table
  2 files changed, 13 insertions(+)
+To https://github.com/totogcc78/trends.git
+   933d3707f..382bc70fb  master -> master
+[master 382bc70fb] updated table
+ 3 files changed, 17 insertions(+)
+ rename forex_screener_scrap.py => forex_screener_scrap.py-tobedelete (100%)
