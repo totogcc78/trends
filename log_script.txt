@@ -781,3 +781,25 @@ Traceback (most recent call last):
 selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="a-b-c L-M-j L-M-j-r-t" title="" role="button" aria-pressed="false" id=":1" style="user-select: none;">...</div> is not clickable at point (280, 442). Other element would receive the click: <div class="L-M-Qb-tb L-M-Qb-Tb-Sb">...</div>
   (Session info: headless chrome=87.0.4280.88)
 
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 253, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 28, in get_html_from_site
+    driver = webdriver.Chrome(options=options)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/chrome/webdriver.py", line 73, in __init__
+    self.service.start()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/selenium/webdriver/common/service.py", line 104, in start
+    raise WebDriverException("Can not connect to the Service %s" % self.path)
+selenium.common.exceptions.WebDriverException: Message: Can not connect to the Service chromedriver
+
+49  recieved from forex screener
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 256, in main
+    create_html(prem, vip)
+  File "/home/ubuntu/trends-script/scraper.py", line 207, in create_html
+    elif (prem[key]==0):
+KeyError: 'AUD/CAD'
