@@ -8,19 +8,18 @@ def get_platinum_screener_list():
 	result = {}
 	while len(result) ==  0:
 		url = "https://www.tradingview.com/forex-screener/"
-		options = webdriver.ChromeOptions()
-		options.add_argument('--headless')
+		options = Options()
+		options.add_argument("--headless")
 		options.add_argument('--no-sandbox')
 		options.add_argument('--disable-dev-shm-usage')
+		options.add_argument("--window-size=1920x1080")
 		options.add_experimental_option("excludeSwitches", ["enable-automation"])
 		options.add_experimental_option('useAutomationExtension', False)
-	    options.add_argument("--disable-blink-features=AutomationControlled")
-	    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
+		options.add_argument("--disable-blink-features=AutomationControlled")
 
-	    driver =webdriver.Chrome('chromedriver',options=options)
-
+		driver = webdriver.Chrome("chromedriver",options=options)
 		driver.get(url)
-		time.sleep(2)
+
 		data = driver.find_element_by_xpath('//*[@id="js-screener-container"]/div[4]/table/tbody').text
 
 		driver.quit()
