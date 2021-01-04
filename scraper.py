@@ -10,9 +10,10 @@ from dominate.tags import table, tr, td, th, img, span
 import os
 import datetime
 from forex_screener_scrap import get_platinum_screener_list
-os.system('apt update')
-os.system('apt install chromium-chromedriver')
-os.system('pip install selenium')
+
+os.system('sudo apt update')
+os.system('sudo apt install chromium-chromedriver')
+os.system('sudo pip3 install selenium')
 
 start_url = "https://www.dukascopy.com/swiss/english/marketwatch/sentiment/"
 xpath_iframe_lp = '//*[@id="main-center-col"]/div/p[12]/iframe'
