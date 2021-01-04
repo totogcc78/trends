@@ -9,7 +9,7 @@ import dominate
 from dominate.tags import table, tr, td, th, img, span
 import os
 import datetime
-from forex_screener_scrap_v1 import get_platinum_screener_list
+from forex_screener_scrap import get_platinum_screener_list
 os.system('apt update')
 os.system('apt install chromium-chromedriver')
 os.system('pip install selenium')

@@ -2597,3 +2597,7 @@ Traceback (most recent call last):
                                                                    ^
 IndentationError: unindent does not match any outer indentation level
 /bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 12, in <module>
+    from forex_screener_scrap_v1 import get_platinum_screener_list
+ModuleNotFoundError: No module named 'forex_screener_scrap_v1'

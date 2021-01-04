@@ -745,3 +745,7 @@ To https://github.com/totogcc78/trends.git
  delete mode 100644 forex_screener_scrap_v1.py
  mode change 100755 => 100644 scraper.py
  delete mode 100644 scraper_v1.py
+To https://github.com/totogcc78/trends.git
+   f1e6edbee..6445a3e6d  master -> master
+[master 6445a3e6d] updated table
+ 1 file changed, 9 insertions(+)
