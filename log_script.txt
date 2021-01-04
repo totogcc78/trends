@@ -2548,3 +2548,6 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 286.932
   (Session info: headless chrome=87.0.4280.88)
 
+0  recieved from forex screener
+49  recieved from forex screener
+2021-01-04 15:40:32.246015  script ran
