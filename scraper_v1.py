@@ -9,9 +9,10 @@ import dominate
 from dominate.tags import table, tr, td, th, img, span
 import os
 import datetime
-from forex_screener_scrap import get_platinum_screener_list
-from kora.selenium import wd
-
+from forex_screener_scrap_v1 import get_platinum_screener_list
+os.system('apt update')
+os.system('apt install chromium-chromedriver')
+os.system('pip install selenium')
 
 start_url = "https://www.dukascopy.com/swiss/english/marketwatch/sentiment/"
 xpath_iframe_lp = '//*[@id="main-center-col"]/div/p[12]/iframe'
@@ -21,7 +22,16 @@ currencies_needed = [
 
 
 def get_html_from_site():
-    driver = wd
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
+
+    driver =webdriver.Chrome('webdriver',options=options)
 
     try:
         driver.get(start_url)

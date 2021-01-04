@@ -729,3 +729,7 @@ To https://github.com/totogcc78/trends.git
  5 files changed, 84 insertions(+), 8 deletions(-)
  rewrite __pycache__/forex_screener_scrap.cpython-38.pyc (99%)
  create mode 100644 forex_screener_scrap_v1.py
+To https://github.com/totogcc78/trends.git
+   a85de7965..2f9ce25a4  master -> master
+[master 2f9ce25a4] updated table
+ 6 files changed, 57 insertions(+), 19 deletions(-)
