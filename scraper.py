@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
@@ -11,8 +9,10 @@ import dominate
 from dominate.tags import table, tr, td, th, img, span
 import os
 import datetime
-from forex_screener_scrap import get_platinum_screener_list
-
+from forex_screener_scrap_v1 import get_platinum_screener_list
+os.system('apt update')
+os.system('apt install chromium-chromedriver')
+os.system('pip install selenium')
 
 start_url = "https://www.dukascopy.com/swiss/english/marketwatch/sentiment/"
 xpath_iframe_lp = '//*[@id="main-center-col"]/div/p[12]/iframe'
@@ -22,10 +22,16 @@ currencies_needed = [
 
 
 def get_html_from_site():
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    driver = webdriver.Chrome(options=options)
+    options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
+    options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36")
+
+    driver =webdriver.Chrome('chromedriver',options=options)
 
     try:
         driver.get(start_url)
@@ -122,7 +128,7 @@ def create_html(prem, vip):
     path = '/home/ubuntu/trends-script/'
     # path = ''
     #premium table
-    
+
     keys = list(prem.keys())
     keys.sort()
 
@@ -174,9 +180,9 @@ def create_html(prem, vip):
     with open('{}vip_table.html'.format(path), 'w') as f:
         f.write(vip_table.render())
 
-    
+
     # platinum table
-    
+
     platinum_result = get_platinum_screener_list()
 
     platinum_keys = list(platinum_result.keys())
@@ -241,14 +247,14 @@ def create_html(prem, vip):
                 svip += tr(td(key), td(" "), td("Sell"), td(" "))
             else :
                 svip += tr(td(key), td(" "), td(" "), td("Hold"))
-        
+
         else:
             svip += tr(td(key), td(" "), td(" "), td("Hold"))
 
     with open('{}svip.html'.format(path), 'w') as f:
         f.write(svip.render())
 
-    
+
 def main():
     htmlstring = get_html_from_site()
     dict_data = clean_html(htmlstring)

@@ -2589,3 +2589,11 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are y
 sh: 1: pip: not found
 49  recieved from forex screener
 2021-01-04 16:05:25.265823  script ran
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 14, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 17
+    options.add_experimental_option('useAutomationExtension', False)
+                                                                   ^
+IndentationError: unindent does not match any outer indentation level
+/bin/sh: 1: /home/ubuntu/trends-script/scraper.py: Permission denied
