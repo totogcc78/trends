@@ -2601,3 +2601,10 @@ Traceback (most recent call last):
   File "/home/ubuntu/trends-script/scraper.py", line 12, in <module>
     from forex_screener_scrap_v1 import get_platinum_screener_list
 ModuleNotFoundError: No module named 'forex_screener_scrap_v1'
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 12, in <module>
+    from forex_screener_scrap import get_platinum_screener_list
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 17
+    options.add_experimental_option('useAutomationExtension', False)
+                                                                   ^
+IndentationError: unindent does not match any outer indentation level
