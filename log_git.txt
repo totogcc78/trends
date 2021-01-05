@@ -613,3 +613,10 @@ To https://github.com/totogcc78/trends.git
    fbcb052deb..b30227ebf8  master -> master
 [master b30227ebf8] updated table
  6 files changed, 58 insertions(+), 17 deletions(-)
+To https://github.com/totogcc78/trends.git
+   b30227ebf8..10f695566e  master -> master
+[master 10f695566e] updated table
+ 9 files changed, 60 insertions(+), 597 deletions(-)
+ delete mode 100755 forex_screener_scrap.py-tobedelete
+ delete mode 100755 scraper.py-20200729
+ delete mode 100755 scraper.py-revert
