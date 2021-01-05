@@ -148,7 +148,7 @@ def create_html(prem, vip):
 
             # sell
         else:
-            prem_table += tr(td(key), td(" "), td("BUY"),
+            prem_table += tr(td(key), td("BUY"), td(" "),
                              td(" "))
 
     with open('{}prem_table.html'.format(path), 'w') as f:
