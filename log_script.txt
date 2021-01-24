@@ -4884,3 +4884,46 @@ Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [10
 Hit:5 http://dl.google.com/linux/chrome/deb stable InRelease
 Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
 Error: Timeout was reached
+Fetched 324 kB in 2min 10s (2494 B/s)
+Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+49  recieved from forex screener
+2021-01-24 16:46:04.701872  script ran
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+
+Building dependency tree...Fetched 109 kB in 4s (29.6 kB/s)
+Reading package lists...
+Reading state information...
+143 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+
+Building dependency tree...Building dependency tree...
+Reading state information...
+
+Reading state information...
+143 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3973214 (apt)...chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 143 not upgraded.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 3973214 (apt)...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 143 not upgraded.
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
