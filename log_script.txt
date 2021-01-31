@@ -7202,3 +7202,19 @@ Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-package
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
 49  recieved from forex screener
 2021-01-30 23:55:37.494781  script ran
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Err:1 http://security.ubuntu.com/ubuntu focal-security InRelease
+  Temporary failure resolving 'security.ubuntu.com'
+Err:2 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+  Temporary failure resolving 's3-us-west-2.amazonaws.com'
+Err:3 http://dl.google.com/linux/chrome/deb stable InRelease
+  Temporary failure resolving 'dl.google.com'
+Err:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+  Temporary failure resolving 'nova.clouds.archive.ubuntu.com'
+Err:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+  Temporary failure resolving 'nova.clouds.archive.ubuntu.com'
+Err:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+  Temporary failure resolving 'nova.clouds.archive.ubuntu.com'
+Reading package lists...
