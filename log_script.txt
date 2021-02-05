@@ -4934,3 +4934,16 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.534
   (Session info: headless chrome=83.0.4103.97)
 
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1103660 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...Error: Timeout was reached
+Fetched 109 kB in 6min 37s (275 B/s)
+Reading package lists...
