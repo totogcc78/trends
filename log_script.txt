@@ -7210,3 +7210,35 @@ Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-package
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
 49  recieved from forex screener
 2021-02-09 23:05:32.456970  script ran
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Get:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [802 kB]
+Hit:7 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [487 kB]
+Get:9 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates/main Translation-en [193 kB]
+Get:10 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [106 kB]
+Get:11 http://security.ubuntu.com/ubuntu focal-security/restricted amd64 Packages [123 kB]
+Get:12 http://security.ubuntu.com/ubuntu focal-security/restricted Translation-en [18.0 kB]
+Fetched 2054 kB in 3s (685 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+137 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 137 not upgraded.
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+49  recieved from forex screener
+2021-02-09 23:10:46.798664  script ran
