@@ -7047,3 +7047,6 @@ Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-package
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
 49  recieved from forex screener
 2021-02-13 23:55:30.199067  script ran
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
