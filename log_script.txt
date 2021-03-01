@@ -4176,3 +4176,29 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 293.604
   (Session info: headless chrome=83.0.4103.97)
 
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Fetched 109 kB in 16s (6829 B/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+149 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 149 not upgraded.
+49  recieved from forex screener
+2021-03-01 14:26:19.259909  script ran
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
