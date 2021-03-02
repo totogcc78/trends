@@ -6098,3 +6098,43 @@ Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-package
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
 49  recieved from forex screener
 2021-03-02 20:47:47.136859  script ran
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 http://dl.google.com/linux/chrome/deb stable InRelease [1811 B]
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Get:7 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1066 B]
+Err:7 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+  File has unexpected size (1080 != 1066). Mirror sync in progress? [IP: 74.125.24.93 80]
+  Hashes of expected file:
+   - Filesize:1066 [weak]
+   - SHA256:f2faae5e7e6f7396498741ea7a580cc0f259f162bd4e875f2ba3c42926ea19c9
+   - SHA1:6f23692deec2192a9e604e2d2637f38c1d78e4d0 [weak]
+   - MD5Sum:cc3343f5d848aacaf60a16c9c1f1a7c0 [weak]
+  Release file created at: Tue, 02 Mar 2021 20:18:42 +0000
+Fetched 1811 B in 7s (246 B/s)
+Reading package lists...
+E: Failed to fetch http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages.gz  File has unexpected size (1080 != 1066). Mirror sync in progress? [IP: 74.125.24.93 80]
+   Hashes of expected file:
+    - Filesize:1066 [weak]
+    - SHA256:f2faae5e7e6f7396498741ea7a580cc0f259f162bd4e875f2ba3c42926ea19c9
+    - SHA1:6f23692deec2192a9e604e2d2637f38c1d78e4d0 [weak]
+    - MD5Sum:cc3343f5d848aacaf60a16c9c1f1a7c0 [weak]
+   Release file created at: Tue, 02 Mar 2021 20:18:42 +0000
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 149 not upgraded.
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+49  recieved from forex screener
+2021-03-02 20:52:47.722763  script ran
