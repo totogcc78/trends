@@ -5016,3 +5016,49 @@ Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-package
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
 49  recieved from forex screener
 2021-03-18 17:18:03.911199  script ran
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Ign:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages
+Ign:8 http://security.ubuntu.com/ubuntu focal-security/main Translation-en
+Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [548 kB]
+Err:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages
+  File has unexpected size (547020 != 548452). Mirror sync in progress? [IP: 91.189.91.39 80]
+  Hashes of expected file:
+   - Filesize:548452 [weak]
+   - SHA256:963eee28efa559eb8f939d41b155eb6e94b42e7c1f910cfc217d91038df385b4
+   - SHA1:99b659e924cd1ef5446ac5684b8a62854a9d07ca [weak]
+   - MD5Sum:986e15f7a24823cb7280b4a4c84fcc9c [weak]
+  Release file created at: Thu, 18 Mar 2021 17:10:05 +0000
+Get:8 http://security.ubuntu.com/ubuntu focal-security/main Translation-en [117 kB]
+Err:8 http://security.ubuntu.com/ubuntu focal-security/main Translation-en
+  
+Fetched 109 kB in 12s (9275 B/s)
+Reading package lists...
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/focal-security/main/binary-amd64/Packages.xz  File has unexpected size (547020 != 548452). Mirror sync in progress? [IP: 91.189.91.39 80]
+   Hashes of expected file:
+    - Filesize:548452 [weak]
+    - SHA256:963eee28efa559eb8f939d41b155eb6e94b42e7c1f910cfc217d91038df385b4
+    - SHA1:99b659e924cd1ef5446ac5684b8a62854a9d07ca [weak]
+    - MD5Sum:986e15f7a24823cb7280b4a4c84fcc9c [weak]
+   Release file created at: Thu, 18 Mar 2021 17:10:05 +0000
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/focal-security/main/i18n/Translation-en.xz  
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 145 not upgraded.
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+49  recieved from forex screener
+2021-03-18 17:24:18.284611  script ran
