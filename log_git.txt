@@ -167,3 +167,19 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
  2 files changed, 16 insertions(+), 1 deletion(-)
 On branch master
 nothing to commit, working tree clean
+fatal: Unable to create '/home/ubuntu/trends-script/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at b9d4fa6bca1ffd7249edbbdac526fa299d3d5eea but expected 8354656000adae9c10d6ff62b437aa5c16f1cb17)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 3b9d2c0a4a] updated table
+ 1 file changed, 15 insertions(+)
+To https://github.com/totogcc78/trends.git
+   8354656000..b9d4fa6bca  master -> master
+[master b9d4fa6bca] updated table
+ 1 file changed, 2 insertions(+)
