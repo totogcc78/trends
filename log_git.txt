@@ -4,3 +4,9 @@ To https://github.com/totogcc78/trends.git
  2 files changed, 8597 deletions(-)
  delete mode 100644 log_git.txt
  delete mode 100644 log_script.txt
+To https://github.com/totogcc78/trends.git
+   d8e5931636..caf7a79955  master -> master
+[master caf7a79955] updated table
+ 6 files changed, 22 insertions(+), 5 deletions(-)
+ create mode 100644 log_git.txt
+ create mode 100644 log_script.txt
