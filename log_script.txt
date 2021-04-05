@@ -4305,3 +4305,15 @@ Reading package lists...Reading package lists...
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 Reading package lists...
+
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 346409 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 346409 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 347298 (apt)...
