@@ -2791,3 +2791,22 @@ Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from s
 
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...

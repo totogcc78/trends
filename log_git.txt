@@ -452,3 +452,12 @@ It took 2.05 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 nothing to commit, working tree clean
+To https://github.com/totogcc78/trends.git
+To https://github.com/totogcc78/trends.git
+   c32a340894..74e74bf0a2   ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 99a145a2feedd28dec3e331d97d4d6010565c9ef but expected c32a340894723510226e5fbdb8809b633a4e6d7b)
+master -> master
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 99a145a2fe] updated table
+ 1 file changed, 11 insertions(+)
+[master 74e74bf0a2] updated table
+ 2 files changed, 26 insertions(+)
