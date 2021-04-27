@@ -6817,3 +6817,12 @@ Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is he
 
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 551584 (apt)...
 Reading package lists...
+Building dependency tree...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
