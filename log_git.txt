@@ -218,3 +218,14 @@ To https://github.com/totogcc78/trends.git
    9256125ca7..282e58fa9a  master -> master
 [master 282e58fa9a] updated table
  2 files changed, 34 insertions(+)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log_script.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/totogcc78/trends.git
+   282e58fa9a..42aad57d19  master -> master
+[master 42aad57d19] updated table
+ 2 files changed, 24 insertions(+)
