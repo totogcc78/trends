@@ -903,3 +903,16 @@ To https://github.com/totogcc78/trends.git
  2 files changed, 77 insertions(+)
 On branch master
 nothing to commit, working tree clean
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 9dbdd45db16d57b1ac8b33a814e4b4a632207c1b but expected 2ba365975a8ef7406ccfd329a7fa7173de2a1430)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   2ba365975a..92f7686334  master -> master
+[master 92f7686334] updated table
+ 1 file changed, 8 insertions(+)
+[master 478d58e077] updated table
+ 2 files changed, 25 insertions(+)
+Everything up-to-date
+[master 9dbdd45db1] updated table
+ 1 file changed, 4 insertions(+)
