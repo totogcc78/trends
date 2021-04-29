@@ -6355,3 +6355,14 @@ Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stabl
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
 Get:7 http://security.ubuntu.com/ubuntu focal-security/main amd64 Packages [627 kB]
 Get:8 http://security.ubuntu.com/ubuntu focal-security/universe amd64 Packages [557 kB]
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 834033 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
