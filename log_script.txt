@@ -11074,3 +11074,4 @@ Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from s
 
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
+Reading package lists...
