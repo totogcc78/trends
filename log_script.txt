@@ -9491,3 +9491,169 @@ E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is an
 
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 840004 (apt)...
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 50, in get_html_from_site
+    htmlCode = row.get_attribute("outerHTML")
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 139, in get_attribute
+    attributeValue = self.parent.execute_script(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 634, in execute_script
+    return self.execute(command, {
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=83.0.4103.97)
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 35, in get_html_from_site
+    driver =webdriver.Chrome('chromedriver',options=options)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsActivePort file doesn't exist
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 38, in get_html_from_site
+    driver.get(start_url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=83.0.4103.97)
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 38, in get_html_from_site
+    driver.get(start_url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.609
+  (Session info: headless chrome=83.0.4103.97)
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 263, in main
+    create_html(prem, vip)
+  File "/home/ubuntu/trends-script/scraper.py", line 187, in create_html
+    platinum_result = get_platinum_screener_list()
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 21, in get_platinum_screener_list
+    driver.get(url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.495
+  (Session info: headless chrome=83.0.4103.97)
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 263, in main
+    create_html(prem, vip)
+  File "/home/ubuntu/trends-script/scraper.py", line 187, in create_html
+    platinum_result = get_platinum_screener_list()
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 21, in get_platinum_screener_list
+    driver.get(url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.801
+  (Session info: headless chrome=83.0.4103.97)
+
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 38, in get_html_from_site
+    driver.get(start_url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.194
+  (Session info: headless chrome=83.0.4103.97)
+
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
