@@ -15511,3 +15511,8 @@ Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 298.128
   (Session info: headless chrome=83.0.4103.97)
 
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Fetched 210 kB in 6min 44s (518 B/s)
+Reading package lists...
