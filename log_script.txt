@@ -2194,3 +2194,21 @@ Traceback (most recent call last):
 selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="js-screener-container"]/div[4]/table/tbody"}
   (Session info: headless chrome=83.0.4103.97)
 
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Hit:5 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+158 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
