@@ -6769,3 +6769,59 @@ Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is he
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 834524 (apt)...
 Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 834524 (apt)...
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+Reading state information...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...Reading package lists...

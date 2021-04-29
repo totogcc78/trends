@@ -573,3 +573,20 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connecti
  1 file changed, 6 insertions(+)
 On branch master
 nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master ce83a601aa] updated table
+ 2 files changed, 20 insertions(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 3a160ef1a3f418f9d317e1b08ca005f58b6a4958 but expected e903a21c267e93b98fa01d81f32cd5dc7f2e3bc1)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   e903a21c26..d36ea6057c  master -> master
+[master d36ea6057c] updated table
+ 1 file changed, 159 insertions(+)
+[master 2165328b17] updated table
+ 1 file changed, 148 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 3a160ef1a3f418f9d317e1b08ca005f58b6a4958 but expected e903a21c267e93b98fa01d81f32cd5dc7f2e3bc1)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 3a160ef1a3] updated table
+ 1 file changed, 17 insertions(+)
