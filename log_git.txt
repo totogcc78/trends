@@ -995,3 +995,14 @@ To https://github.com/totogcc78/trends.git
 error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
 [master 1db9c35c9b] updated table
  1 file changed, 18 insertions(+)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log_script.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To https://github.com/totogcc78/trends.git
+   1db9c35c9b..c11e8c5289  master -> master
+[master c11e8c5289] updated table
+ 1 file changed, 23 insertions(+)
