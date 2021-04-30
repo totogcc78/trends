@@ -288,3 +288,18 @@ It took 12.11 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 9692f71d5d] updated table
+ 2 files changed, 29 insertions(+)
+On branch master
+
+It took 13.84 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master c5d33053cc] updated table
+ 1 file changed, 38 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 4932434c15] updated table
+ 1 file changed, 130 insertions(+), 1 deletion(-)
