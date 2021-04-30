@@ -303,3 +303,14 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connecti
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
 [master 4932434c15] updated table
  1 file changed, 130 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+   c416bebd19..8a66fbd808  master -> master
+[master 8a66fbd808] updated table
+ 1 file changed, 23 insertions(+)
+fatal: Unable to create '/home/ubuntu/trends-script/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
