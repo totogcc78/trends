@@ -6854,3 +6854,4 @@ Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
 Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Error: Timeout was reached
