@@ -288,3 +288,9 @@ To https://github.com/totogcc78/trends.git
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
 [master 18fdfc2f8d] updated table
  1 file changed, 7 insertions(+)
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 1fd7cc90cb3f0050987335c22a71e73b81e0fd23 but expected 6a28b94b5a6827136fe62168c7eaf0d5a72ea08a)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   6a28b94b5a..b7574d943d  master -> master
