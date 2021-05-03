@@ -470,3 +470,14 @@ It took 9.54 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 9429017af9] updated table
+ 2 files changed, 25 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 8e4104c824] updated table
+ 1 file changed, 4 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 60f9a930a5] updated table
+ 1 file changed, 16 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
