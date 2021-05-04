@@ -703,3 +703,6 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connecti
  1 file changed, 89 insertions(+)
 [master f48bbe7593] updated table
  1 file changed, 9 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Failed sending HTTP2 data
+[master c672fb94fd] updated table
+ 2 files changed, 32 insertions(+)
