@@ -2648,3 +2648,5 @@ Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 
 Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
 Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
 Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Fetched 324 kB in 4min 12s (1283 B/s)
+Reading package lists...
