@@ -15265,3 +15265,24 @@ Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
 Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
 Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
 Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 263, in main
+    create_html(prem, vip)
+  File "/home/ubuntu/trends-script/scraper.py", line 187, in create_html
+    platinum_result = get_platinum_screener_list()
+  File "/home/ubuntu/trends-script/forex_screener_scrap.py", line 23, in get_platinum_screener_list
+    data = driver.find_element_by_xpath('//*[@id="js-screener-container"]/div[4]/table/tbody').text
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 76, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)['value']
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: headless chrome=83.0.4103.97)
+
+Reading package lists...
