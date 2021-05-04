@@ -12091,3 +12091,9 @@ Reading package lists...Traceback (most recent call last):
     raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.WebDriverException: Message: chrome not reachable
 
+
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 461759 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
