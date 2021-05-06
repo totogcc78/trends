@@ -719,3 +719,13 @@ To https://github.com/totogcc78/trends.git
    d608d48dbd..da9f61dfec  master -> master
 [master da9f61dfec] updated table
  2 files changed, 34 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Error in the HTTP2 framing layer
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Error in the HTTP2 framing layer
+[master cadbe85183] updated table
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+[master cf6ba89340] updated table
+ 2 files changed, 125 insertions(+)
+To https://github.com/totogcc78/trends.git
+   da9f61dfec..300f057a49  master -> master
+[master 300f057a49] updated table
+ 1 file changed, 11 insertions(+)
