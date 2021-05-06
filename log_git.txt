@@ -821,3 +821,5 @@ error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
  2 files changed, 728 insertions(+), 1 deletion(-)
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
