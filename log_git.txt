@@ -779,3 +779,18 @@ Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+   3f800781d4..15a5be32c9  master -> master
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at eba86953f8517830f2a3b53db04e9e534e4319eb but expected 3f800781d46dba7af04485525d44f3fc772f72de)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master aacebf1faa] updated table
+ 1 file changed, 12 insertions(+)
+[master 15a5be32c9] updated table
+ 1 file changed, 20 insertions(+)
+Everything up-to-date
+[master eba86953f8] updated table
+ 1 file changed, 15 insertions(+)
