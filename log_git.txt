@@ -808,3 +808,14 @@ To https://github.com/totogcc78/trends.git
  2 files changed, 64 insertions(+), 1 deletion(-)
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+To https://github.com/totogcc78/trends.git
+   eb33bd9acc..41679b9b15  master -> master
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 42b4d850a674d79fd3cd2ea2a5fcf5e873c0851f but expected eb33bd9accd1c00d98fed9e20b0be7b14986c77f)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 42b4d850a6] updated table
+ 1 file changed, 9 insertions(+)
+[master 41679b9b15] updated table
+ 2 files changed, 728 insertions(+), 1 deletion(-)
