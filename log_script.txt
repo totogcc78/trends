@@ -8268,3 +8268,13 @@ WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 Reading package lists...
 Building dependency tree...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
+Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Fetched 101 kB in 2min 32s (660 B/s)
+Reading package lists...
