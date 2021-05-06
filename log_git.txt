@@ -567,3 +567,13 @@ It took 14.86 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 nothing to commit, working tree clean
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+To https://github.com/totogcc78/trends.git
+   4f67f53091..bac54356d3  master -> master
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at e16b4e0fa6a26b65101f7e61b353581cf6bd4f9c but expected 4f67f5309130e613a8364caae01d9b120dad8976)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 570b0766fb] updated table
+ 1 file changed, 21 insertions(+)
+[master bac54356d3] updated table
+ 1 file changed, 19 insertions(+)
