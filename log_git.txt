@@ -2255,3 +2255,32 @@ Automatic cleanup will not be performed until the file is removed.
 error: pack-objects died of signal 9
 fatal: failed to run repack
 
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+To https://github.com/totogcc78/trends.git
+   0dc0280ff2..57c71b4ca9  master -> master
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 84f862dd0443db39da7c216f83863ffb8fc94a22 but expected 0dc0280ff2ef05d31652f57dcab700f5897966db)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 57c71b4ca9] updated table
+ 1 file changed, 40 insertions(+)
+[master 8406cc90d3] updated table
+ 2 files changed, 79 insertions(+), 1 deletion(-)
+Everything up-to-date
+[master 84f862dd04] updated table
+ 1 file changed, 36 insertions(+)
