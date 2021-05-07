@@ -329,3 +329,16 @@ To https://github.com/totogcc78/trends.git
    88f0745679..85c66110a2  master -> master
 [master 85c66110a2] updated table
  2 files changed, 58 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+
+To https://github.com/totogcc78/trends.git
+   85c66110a2..0846fb437b  master -> master
+[master 0846fb437b] updated table
+ 6 files changed, 109 insertions(+), 50 deletions(-)
