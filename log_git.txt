@@ -1585,3 +1585,21 @@ Automatic cleanup will not be performed until the file is removed.
 error: pack-objects died of signal 9
 fatal: failed to run repack
 
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+
+To https://github.com/totogcc78/trends.git
+   85abe0423a..1d26f2213f  master -> master
+[master 1d26f2213f] updated table
+ 2 files changed, 154 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at b760d8fd7ac6dd94841eca7ca9f32403426bae2b but expected 85abe0423adcec44841d50089d08e5086d05d4a1)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master b760d8fd7a] updated table
+ 1 file changed, 25 insertions(+)
