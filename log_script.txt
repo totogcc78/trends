@@ -5349,3 +5349,7 @@ Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease
 Hit:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease
 Hit:5 http://security.ubuntu.com/ubuntu focal-security InRelease
 Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+
+Building dependency tree...
+Reading state information...
+161 packages can be upgraded. Run 'apt list --upgradable' to see them.
