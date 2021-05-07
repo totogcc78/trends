@@ -1404,3 +1404,15 @@ To https://github.com/totogcc78/trends.git
    2145f42f26..2474ea8085  master -> master
 [master 2474ea8085] updated table
  2 files changed, 33 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master b2b192305c] updated table
+ 2 files changed, 89 insertions(+), 1 deletion(-)
