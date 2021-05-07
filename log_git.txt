@@ -2333,3 +2333,35 @@ Automatic cleanup will not be performed until the file is removed.
 error: pack-objects died of signal 9
 fatal: failed to run repack
 
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[master 211e70b695] updated table
+ 1 file changed, 57 insertions(+)
+[master e3c1e262b4] updated table
+ 1 file changed, 88 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log.
+Automatic cleanup will not be performed until the file is removed.
+
+error: pack-objects died of signal 9
+fatal: failed to run repack
+
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+   84f862dd04..eeeb433ffe  master -> master
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at d5fff6ee6af393b00c102b26d119f955b6a283d6 but expected 84f862dd0443db39da7c216f83863ffb8fc94a22)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master bd78603dd7] updated table
+ 2 files changed, 55 insertions(+)
+[master eeeb433ffe] updated table
+ 2 files changed, 186 insertions(+)
+Everything up-to-date
