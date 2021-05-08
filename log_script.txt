@@ -2871,3 +2871,17 @@ Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from s
 Reading state information...
 chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
 0 upgraded, 0 newly installed, 0 to remove and 161 not upgraded.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...Reading package lists...Reading package lists...
+Building dependency tree...
