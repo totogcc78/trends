@@ -373,3 +373,37 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
 [master 72b4258392] updated table
  1 file changed, 1 insertion(+)
+On branch master
+
+It took 8.41 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 29bcce678e] updated table
+ 2 files changed, 26 insertions(+), 1 deletion(-)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log_git.txt
+
+
+It took 18.43 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+no changes added to commit (use "git add" and/or "git commit -a")
+fatal: Unable to create '/home/ubuntu/trends-script/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/home/ubuntu/trends-script/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
