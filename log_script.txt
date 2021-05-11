@@ -5291,3 +5291,11 @@ Fetched 324 kB in 6min 36s (817 B/s)
 Reading package lists...
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
+Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
+Hit:2 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Ign:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Hit:6 http://dl.google.com/linux/chrome/deb stable InRelease
+Err:7 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable Release
+  Could not handshake: The TLS connection was non-properly terminated. [IP: 52.218.248.200 443]
