@@ -734,3 +734,34 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connecti
 [master aa243182c0] updated table
  1 file changed, 8 insertions(+)
 fatal: cannot lock ref 'HEAD': is at dfa91117d0df60fa2077a68a1a50a6418d8fa325 but expected ce94e8f43c1bca7b63c1c9e194367cbfe57e8d58
+fatal: Unable to create '/home/ubuntu/trends-script/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: unable to get credential storage lock: File exists
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 0892429ab8cf5e254dabc6f9df962dd851e573a6 but expected 8623293f5bbfd2cec606a502b27a4b5330fc9f77)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 0892429ab8cf5e254dabc6f9df962dd851e573a6 but expected 8623293f5bbfd2cec606a502b27a4b5330fc9f77)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   8623293f5b..62edb7c7e2  master -> master
+[master ce94e8f43c] updated table
+ 1 file changed, 97 insertions(+)
+[master c3edc132ea] updated table
+ 1 file changed, 27 insertions(+)
+[master 62edb7c7e2] updated table
+ 2 files changed, 52 insertions(+)
+Everything up-to-date
+[master 0892429ab8] updated table
+ 1 file changed, 1 insertion(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 0892429ab8cf5e254dabc6f9df962dd851e573a6 but expected 8623293f5bbfd2cec606a502b27a4b5330fc9f77)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master dfa91117d0] updated table
+ 1 file changed, 109 insertions(+), 1 deletion(-)
