@@ -1539,4 +1539,19 @@ Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from s
 
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
-Reading package lists...
+Reading package lists...Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 38, in get_html_from_site
+    driver.get(start_url)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 283.282
+  (Session info: headless chrome=83.0.4103.97)
+
