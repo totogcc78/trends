@@ -4425,3 +4425,12 @@ Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from s
 
 E: Could not get lock /var/lib/apt/lists/lock. It is held by process 761288 (apt)
 E: Unable to lock directory /var/lib/apt/lists/
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
