@@ -283,3 +283,5 @@ To https://github.com/totogcc78/trends.git
    dc1329035c..e4ae981a42  master -> master
 [master e4ae981a42] updated table
  2 files changed, 33 insertions(+)
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
