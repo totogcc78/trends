@@ -285,3 +285,5 @@ To https://github.com/totogcc78/trends.git
  2 files changed, 33 insertions(+)
 Auto packing the repository in background for optimum performance.
 See "git help gc" for manual housekeeping.
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
