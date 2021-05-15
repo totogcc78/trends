@@ -5088,3 +5088,34 @@ Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
 Get:5 http://security.ubuntu.com/ubuntu focal-security InRelease [109 kB]
 Hit:6 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Fetched 324 kB in 7min 11s (751 B/s)
+Reading package lists...49  recieved from forex screener
+2021-05-15 16:19:47.391815  script ran
+
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1178026 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Building dependency tree...
+Reading state information...
+
+Reading state information...
+162 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1178646 (apt)...chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 162 not upgraded.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1178646 (apt)...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.04.2).
+0 upgraded, 0 newly installed, 0 to remove and 162 not upgraded.
