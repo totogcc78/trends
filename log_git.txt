@@ -1088,3 +1088,19 @@ To https://github.com/totogcc78/trends.git
  2 files changed, 101 insertions(+)
 On branch master
 nothing to commit, working tree clean
+On branch master
+
+It took 5.32 seconds to enumerate untracked files. 'status -uno'
+may speed it up, but you have to be careful not to forget to add
+new files yourself (see 'git help status').
+nothing to commit, working tree clean
+fatal: unable to get credential storage lock: File exists
+To https://github.com/totogcc78/trends.git
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 32b594215e5c5f433949cbfd80a0041322b41554 but expected cae689d363159706dc68ed1c173bc03088c43adc)
+   cae689d363..32b594215e  master -> master
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 32b594215e] updated table
+ 1 file changed, 14 insertions(+)
+[master 4f5c6663c8] updated table
+ 2 files changed, 90 insertions(+), 1 deletion(-)
