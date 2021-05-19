@@ -250,3 +250,6 @@ To https://github.com/totogcc78/trends.git
    ad6562a34f..0b452262de  master -> master
 [master 0b452262de] updated table
  2 files changed, 18 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master 0458302eff] updated table
+ 2 files changed, 45 insertions(+), 1 deletion(-)
