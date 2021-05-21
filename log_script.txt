@@ -6458,3 +6458,6 @@ selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receivi
   (Session info: headless chrome=83.0.4103.97)
 
 Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
