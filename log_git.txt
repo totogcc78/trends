@@ -68,3 +68,12 @@ To https://github.com/totogcc78/trends.git
    fc43ae0730..82f83381cb  master -> master
 [master 82f83381cb] updated table
  2 files changed, 860 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 2ace7c09af8c9e249e1ce07f2b1a831ca3d9adec but expected 82f83381cb8bb70cae9104e9c712890ede9932c9)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   82f83381cb..2ace7c09af  master -> master
+[master 2ace7c09af] updated table
+ 1 file changed, 39 insertions(+)
+[master ad14a886ff] updated table
+ 2 files changed, 284 insertions(+), 1 deletion(-)
