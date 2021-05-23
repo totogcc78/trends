@@ -6143,3 +6143,13 @@ Get:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 
 Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
 Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
 Hit:6 http://dl.google.com/linux/chrome/deb stable InRelease
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+
+WARNING: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Reading package lists...Reading package lists...
