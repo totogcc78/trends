@@ -151,3 +151,6 @@ To https://github.com/totogcc78/trends.git
 error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
 [master ee20aacd4f] updated table
  1 file changed, 15 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master 30989adc46] updated table
+ 1 file changed, 15 insertions(+)
