@@ -154,3 +154,9 @@ error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
 [master 30989adc46] updated table
  1 file changed, 15 insertions(+)
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[master 2c85e60fc5] updated table
+ 1 file changed, 18 insertions(+)
