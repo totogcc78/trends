@@ -160,3 +160,6 @@ fatal: the remote end hung up unexpectedly
 Everything up-to-date
 [master 2c85e60fc5] updated table
  1 file changed, 18 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master eec3f5b956] updated table
+ 1 file changed, 9 insertions(+)
