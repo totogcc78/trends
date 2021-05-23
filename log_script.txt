@@ -6156,3 +6156,65 @@ Reading package lists...Reading package lists...Reading package lists...
 WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
 
 Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 130203 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+E: Problem renaming the file /var/cache/apt/pkgcache.bin.W9tla2 to /var/cache/apt/pkgcache.bin - rename (2: No such file or directory)
+W: You may want to run apt-get update to correct these problems
+E: The package cache file is corrupted
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 130203 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 130203 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+Reading package lists...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...Reading package lists...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 130203 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 44, in get_html_from_site
+    liquidity_providers.click()
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="a-b-c L-M-j L-M-j-r-t" title="" role="button" aria-pressed="false" id=":1" style="user-select: none;">...</div> is not clickable at point (280, 442). Other element would receive the click: <div class="L-M-Qb-tb L-M-Qb-Tb-Sb">...</div>
+  (Session info: headless chrome=83.0.4103.97)
+
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 131319 (apt)...
