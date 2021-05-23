@@ -163,3 +163,17 @@ Everything up-to-date
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
 [master eec3f5b956] updated table
  1 file changed, 9 insertions(+)
+To https://github.com/totogcc78/trends.git
+   ee20aacd4f..da26c8737f  master -> master
+[master da26c8737f] updated table
+ 2 files changed, 21 insertions(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at ebadd7499875e6c3f44165bf3f75d3eb21a0229f but expected ee20aacd4fd20e5970cf6b82f9ad3bba18034eb9)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at ebadd7499875e6c3f44165bf3f75d3eb21a0229f but expected ee20aacd4fd20e5970cf6b82f9ad3bba18034eb9)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master ebadd74998] updated table
+ 2 files changed, 47 insertions(+), 1 deletion(-)
+[master bcc0a74163] updated table
+ 1 file changed, 15 insertions(+)
