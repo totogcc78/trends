@@ -952,3 +952,9 @@ To https://github.com/totogcc78/trends.git
  1 file changed, 6 insertions(+)
 On branch master
 nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': SSL connection timeout
+[master 10ff9b2871] updated table
+ 2 files changed, 252 insertions(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master d51461d7fb] updated table
+ 1 file changed, 6 insertions(+)
