@@ -1021,3 +1021,27 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': Failed sending HTTP2 data
 [master a8397ab185] updated table
  1 file changed, 12 insertions(+)
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: Error in the push function.
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[master 5df81f166b] updated table
+ 1 file changed, 21 insertions(+)
+[master 98baac6eb3] updated table
+ 1 file changed, 17 insertions(+)
+[master a84e1ceb8f] updated table
+ 1 file changed, 11 insertions(+)
+To https://github.com/totogcc78/trends.git
+   35b6468564..d0ec8019a3  master -> master
+[master d0ec8019a3] updated table
+ 1 file changed, 19 insertions(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at c1f1c4ad77e3d8e7975cf36022c62d4184408113 but expected 35b6468564c47fd658eb45ccebed142246a84c57)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master c1f1c4ad77] updated table
+ 1 file changed, 1 insertion(+)
