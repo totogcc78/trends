@@ -1015,3 +1015,9 @@ It took 12.26 seconds to enumerate untracked files. 'status -uno'
 may speed it up, but you have to be careful not to forget to add
 new files yourself (see 'git help status').
 nothing to commit, working tree clean
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master 7d8c3b2012] updated table
+ 2 files changed, 254 insertions(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': Failed sending HTTP2 data
+[master a8397ab185] updated table
+ 1 file changed, 12 insertions(+)
