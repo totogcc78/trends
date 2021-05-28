@@ -1595,3 +1595,5 @@ selenium.common.exceptions.WebDriverException: Message: unknown error: DevToolsA
 
 Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Fetched 328 kB in 6min 16s (873 B/s)
+Reading package lists...
