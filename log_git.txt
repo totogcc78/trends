@@ -1,0 +1,13 @@
+To https://github.com/totogcc78/trends.git
+   ea075fa82c..3d43d09e5b  master -> master
+[master 3d43d09e5b] updated table
+ 2 files changed, 10293 deletions(-)
+ delete mode 100644 log_git.txt
+ delete mode 100644 log_script.txt
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 046c0ca427f6d45a4ebb9d2e99ffebb7c409f931 but expected ea075fa82c7046c4c3603ae25337ec0bdbf3b290)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 046c0ca427] updated table
+ 2 files changed, 9 insertions(+)
+ create mode 100644 log_git.txt
+ create mode 100644 log_script.txt
