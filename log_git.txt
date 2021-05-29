@@ -657,3 +657,6 @@ Changes not staged for commit:
 	modified:   log_git.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master c4ce18a647] updated table
+ 1 file changed, 11 insertions(+)
