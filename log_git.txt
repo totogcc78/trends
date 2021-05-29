@@ -865,3 +865,12 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
  1 file changed, 5 insertions(+)
 On branch master
 nothing to commit, working tree clean
+error: RPC failed; curl 28 SSL connection timeout
+fatal: the remote end hung up unexpectedly
+fatal: the remote end hung up unexpectedly
+Everything up-to-date
+[master 38e5e4d8f5] updated table
+ 2 files changed, 164 insertions(+), 1 deletion(-)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master f7c247563e] updated table
+ 1 file changed, 14 insertions(+)
