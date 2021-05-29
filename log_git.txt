@@ -647,3 +647,13 @@ To https://github.com/totogcc78/trends.git
    cf9e1af08d..ca09631699  master -> master
 [master ca09631699] updated table
  2 files changed, 41 insertions(+)
+fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[master 414ddb3fb4] updated table
+ 2 files changed, 39 insertions(+), 1 deletion(-)
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   log_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
