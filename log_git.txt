@@ -661,3 +661,17 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
 [master c4ce18a647] updated table
  1 file changed, 11 insertions(+)
 fatal: cannot lock ref 'HEAD': is at 78a15e3b3dabeca5f6993c41c01c217dd61b3ebd but expected af8f46ed71e39e9f3fb4fdb31535e16660c423cc
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 8f0d9fa088fb522e4a0b9fb497fe98807f2c6b88 but expected ca09631699d167fd1a7f39a73d2b0b49501e9734)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 8f0d9fa088fb522e4a0b9fb497fe98807f2c6b88 but expected ca09631699d167fd1a7f39a73d2b0b49501e9734)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   ca09631699..af8f46ed71  master -> master
+[master 8f0d9fa088] updated table
+ 1 file changed, 9 insertions(+)
+[master 78a15e3b3d] updated table
+ 1 file changed, 90 insertions(+)
+[master af8f46ed71] updated table
+ 2 files changed, 121 insertions(+)
