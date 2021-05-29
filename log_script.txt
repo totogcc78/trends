@@ -12985,3 +12985,69 @@ chromium-chromedriver is already the newest version (1:85.0.4183.83-0ubuntu0.20.
 0 upgraded, 0 newly installed, 0 to remove and 157 not upgraded.
 Requirement already satisfied: selenium in /usr/local/lib/python3.8/dist-packages (3.141.0)
 Requirement already satisfied: urllib3 in /usr/lib/python3/dist-packages (from selenium) (1.25.8)
+Traceback (most recent call last):
+  File "/home/ubuntu/trends-script/scraper.py", line 267, in <module>
+    main()
+  File "/home/ubuntu/trends-script/scraper.py", line 260, in main
+    htmlstring = get_html_from_site()
+  File "/home/ubuntu/trends-script/scraper.py", line 50, in get_html_from_site
+    htmlCode = row.get_attribute("outerHTML")
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webelement.py", line 139, in get_attribute
+    attributeValue = self.parent.execute_script(
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 634, in execute_script
+    return self.execute(command, {
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=83.0.4103.97)
+
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://dl.google.com/linux/chrome/deb stable InRelease
+Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:3 http://nova.clouds.archive.ubuntu.com/ubuntu focal InRelease
+Get:4 http://nova.clouds.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Hit:5 https://s3-us-west-2.amazonaws.com/prod-otxb-portal-osquery/repo/deb stable InRelease
+Reading package lists...Get:6 http://nova.clouds.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...Fetched 328 kB in 21s (15.6 kB/s)
+Reading package lists...
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1206247 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+E: Problem renaming the file /var/cache/apt/srcpkgcache.bin.Vn88YU to /var/cache/apt/srcpkgcache.bin - rename (2: No such file or directory)
+W: You may want to run apt-get update to correct these problems
+E: The package cache file is corrupted
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+E: Could not get lock /var/lib/apt/lists/lock. It is held by process 1206247 (apt)
+E: Unable to lock directory /var/lib/apt/lists/
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Reading state information...
+
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 1206697 (apt)...
