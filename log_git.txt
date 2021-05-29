@@ -660,3 +660,4 @@ no changes added to commit (use "git add" and/or "git commit -a")
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
 [master c4ce18a647] updated table
  1 file changed, 11 insertions(+)
+fatal: cannot lock ref 'HEAD': is at 78a15e3b3dabeca5f6993c41c01c217dd61b3ebd but expected af8f46ed71e39e9f3fb4fdb31535e16660c423cc
