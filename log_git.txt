@@ -11,3 +11,7 @@ error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
  2 files changed, 9 insertions(+)
  create mode 100644 log_git.txt
  create mode 100644 log_script.txt
+To https://github.com/totogcc78/trends.git
+   046c0ca427..5c2eec3639  master -> master
+[master 5c2eec3639] updated table
+ 2 files changed, 64 insertions(+)
