@@ -683,3 +683,10 @@ fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_hands
  1 file changed, 1252 insertions(+)
 To https://github.com/totogcc78/trends.git
    8f0d9fa088..5e4b22d512  master -> master
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at b782276a2fdb08d41e9bd04288d1cbd1c321cb6d but expected 8f0d9fa088fb522e4a0b9fb497fe98807f2c6b88)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 5e4b22d512] updated table
+ 1 file changed, 724 insertions(+)
+[master b782276a2f] updated table
+ 1 file changed, 502 insertions(+), 1 deletion(-)
