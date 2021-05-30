@@ -158,3 +158,13 @@ error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
  1 file changed, 5 insertions(+)
 [master d18d55b344] updated table
  1 file changed, 14 insertions(+)
+On branch master
+nothing to commit, working tree clean
+fatal: unable to get credential storage lock: File exists
+Everything up-to-date
+[master 8903f0ced8] updated table
+ 1 file changed, 1 insertion(+)
+To https://github.com/totogcc78/trends.git
+   8903f0ced8..72fe60ddad  master -> master
+[master 72fe60ddad] updated table
+ 1 file changed, 20 insertions(+)
