@@ -797,3 +797,26 @@ Everything up-to-date
 fatal: unable to access 'https://github.com/totogcc78/trends.git/': gnutls_handshake() failed: The TLS connection was non-properly terminated.
 [master c9f3daded0] updated table
  2 files changed, 48 insertions(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 5e4d6170e2ee57055069c7c51ef1ae72e4258df0 but expected 1030ae1028d32a9cbd985200f7fca187701fa92c)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+To https://github.com/totogcc78/trends.git
+   1030ae1028..6f04bcec8f  master -> master
+[master c230d54600] updated table
+ 2 files changed, 55 insertions(+)
+[master 6f04bcec8f] updated table
+ 1 file changed, 152 insertions(+)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at 5e4d6170e2ee57055069c7c51ef1ae72e4258df0 but expected 1030ae1028d32a9cbd985200f7fca187701fa92c)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master b833015f3b] updated table
+ 1 file changed, 759 insertions(+)
+To https://github.com/totogcc78/trends.git
+   5e4d6170e2..dc51026308  master -> master
+[master dc51026308] updated table
+ 1 file changed, 363 insertions(+), 1 deletion(-)
+To https://github.com/totogcc78/trends.git
+ ! [remote rejected]       master -> master (cannot lock ref 'refs/heads/master': is at dc510263082535ca88b30ffefb3ba254a9269a02 but expected 1030ae1028d32a9cbd985200f7fca187701fa92c)
+error: failed to push some refs to 'https://github.com/totogcc78/trends.git'
+[master 5e4d6170e2] updated table
+ 1 file changed, 686 insertions(+)
